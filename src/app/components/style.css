@@ -547,6 +547,9 @@ p.overlay-description {
 .description {
     margin-right: 0px;
 }
+    .top-header {
+    display: none;
+}
 .description-bottom
  {
     margin-right: 0px;
