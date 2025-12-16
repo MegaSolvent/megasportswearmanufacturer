@@ -1,0 +1,40 @@
+/* [project]/app/portfolio/style.css [app-client] (css) */
+.hero-slide {
+  background-image: url("/Images/portfolio/banenr.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 2px;
+  height: 70vh;
+  position: relative;
+}
+
+.hero-overlay {
+  background: #0000008c;
+  border: none;
+  padding: 0 15px 3rem;
+  position: absolute;
+  inset: 0;
+}
+
+.carousel {
+  border-radius: 1px;
+  box-shadow: 0 10px 30px #0000004d;
+}
+
+p.mt-3.leading-sports {
+  padding-left: 12rem !important;
+  padding-right: 12rem !important;
+}
+
+p.mt-3.mx-auto {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+  p.mt-3.leading-sports {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+/*# sourceMappingURL=app_portfolio_style_255bc152.css.map*/

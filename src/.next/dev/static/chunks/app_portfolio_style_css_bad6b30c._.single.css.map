@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/portfolio/style.css"],"sourcesContent":[".hero-slide{\r\n  background-image:url('/Images/portfolio/banenr.jpg');\r\n  background-size:cover;\r\n  background-position:center;\r\n  position:relative;\r\n  height: 70vh;\r\n  border-radius: 2px;\r\n}\r\n.hero-overlay{\r\n  position:absolute;\r\n  inset:0;\r\n  background:rgba(0,0,0,0.55);\r\n  padding:0 15px;\r\n  border: none;\r\n  padding-bottom: 3rem;\r\n}\r\n.carousel {\r\n    border-radius: 1px;\r\n    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\r\n}\r\np.mt-3.leading-sports {\r\n    padding-left: 12rem !important;\r\n    padding-right: 12rem !important;\r\n}\r\np.mt-3.mx-auto {\r\n    padding-bottom: 40px;\r\n}\r\n/* Styles for screens 480px and wider (e.g., larger phones, tablets) */\r\n@media (max-width: 480px) {\r\n    p.mt-3.leading-sports {\r\n    padding-left: 0px !important;\r\n    padding-right: 0px !important;\r\n}\r\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AAQA;;;;;;;;AAQA;;;;;AAIA;;;;;AAIA;;;;AAIA;EACI"}}]
+}

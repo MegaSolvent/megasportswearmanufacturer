@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/BUTT%20SYSTEMS/Desktop/NEXT/sportswearmanufacturing/app/components/Home.jsx"],"sourcesContent":["import Link from \"next/link\";\r\nimport { DiVisualstudio } from \"react-icons/di\";\r\n\r\nexport default function Home() {\r\n  return (\r\n      <div>\r\n        <a href=\"/\">myhome page very Homey.</a>\r\n        {/* baki services links */}\r\n      </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;;AAGe,SAAS;IACtB,qBACI,8OAAC;kBACC,cAAA,8OAAC;YAAE,MAAK;sBAAI;;;;;;;;;;;AAIpB"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/BUTT%20SYSTEMS/Desktop/NEXT/sportswearmanufacturing/app/page.js"],"sourcesContent":["// src/app/page.js\nimport Head from \"next/head\";\nimport Home from \"./components/Home\";\n\nexport default function Page() {\n  return (\n    <>\n      <Head>\n        <title>Mega Apparel - Home</title>\n        <meta name=\"description\" content=\"Custom Sportswear Manufacturer\" />\n      </Head>\n      <Home />\n    </>\n  );\n}\n"],"names":[],"mappings":"AAAA,kBAAkB;;;;;;AAClB;AACA;;;;AAEe,SAAS;IACtB,qBACE;;0BACE,8OAAC,+KAAI;;kCACH,8OAAC;kCAAM;;;;;;kCACP,8OAAC;wBAAK,MAAK;wBAAc,SAAQ;;;;;;;;;;;;0BAEnC,8OAAC,qIAAI;;;;;;;AAGX"}}]
+}

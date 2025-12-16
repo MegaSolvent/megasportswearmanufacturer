@@ -1,0 +1,34 @@
+.hero-slide{
+  background-image:url('/Images/portfolio/banenr.jpg');
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  height: 70vh;
+  border-radius: 2px;
+}
+.hero-overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.55);
+  padding:0 15px;
+  border: none;
+  padding-bottom: 3rem;
+}
+.carousel {
+    border-radius: 1px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+p.mt-3.leading-sports {
+    padding-left: 12rem !important;
+    padding-right: 12rem !important;
+}
+p.mt-3.mx-auto {
+    padding-bottom: 40px;
+}
+/* Styles for screens 480px and wider (e.g., larger phones, tablets) */
+@media (max-width: 480px) {
+    p.mt-3.leading-sports {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+}

@@ -1,0 +1,10 @@
+{
+  "app": {
+    "[project]/app/page": [],
+    "[project]/app/services/hunting-clothing-manufacturer/page": [],
+    "[project]/app/services/tennis-clothing-manufacturer/page": []
+  },
+  "appUsingSizeAdjust": false,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
