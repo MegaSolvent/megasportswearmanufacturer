@@ -20,28 +20,40 @@ const AboutPage = () => {
 
     return (
         <div className="about-page bg-white">
-        <section
-  className="position-relative d-flex align-items-center justify-content-center"
-  style={{
-    backgroundImage: "url('/Images/about us page/banner.jpg')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    height: "350px",
-  }}
->
-  {/* Overlay */}
-  <div
-    className="position-absolute top-0 start-0 w-100 h-100"
-    style={{ backgroundColor: "rgba(0,0,0,0.55)" }}
-  ></div>
 
-  {/* Content */}
-  <div className="container position-relative z-2">
-    <h1 className="fw-bold display-5 text-white text-center">
-      About Us
-    </h1>
-  </div>
-</section>
+
+            <title> Sportswear Manufacturing || About Us</title>
+            <meta name="description" content=" We are the Sports Apparel Manufacturers, top sports clothing suppliers in the USA.
+                                        We cater to clothing brands, retailers, startups, established clothing lines,
+                                        athletic teams, wholesalers, and small- and large-scale apparel businesses.
+                                        With the help of our top-of-the-line customer services, we help our customers develop
+                                        their product lines and launch their brands.
+                                        We help them evolve in the competitive clothing industry." />
+            <link rel="canonical" href="/contact"></link>
+
+
+            <section
+                className="position-relative d-flex align-items-center justify-content-center"
+                style={{
+                    backgroundImage: "url('/Images/about us page/banner.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    height: "350px",
+                }}
+            >
+                {/* Overlay */}
+                <div
+                    className="position-absolute top-0 start-0 w-100 h-100"
+                    style={{ backgroundColor: "rgba(0,0,0,0.55)" }}
+                ></div>
+
+                {/* Content */}
+                <div className="container position-relative z-2">
+                    <h1 className="fw-bold display-5 text-white text-center">
+                        About Us
+                    </h1>
+                </div>
+            </section>
 
             {/* ABOUT US SECTION */}
             <section className="aboutbgound">
@@ -68,7 +80,7 @@ const AboutPage = () => {
                             <div className="col-md-6 text-center">
                                 <div className="position-relative">
                                     <img
-                                       src="/Images/about us page/22.jpg"
+                                        src="/Images/about us page/22.jpg"
                                         className="img-fluid rounded shadow"
                                         alt="Fitness model"
                                         width="100%"
@@ -97,7 +109,7 @@ const AboutPage = () => {
                 <div className="col-md-8 text-center">
                     <div className="bagimg">
                         <img
-                          src="/Images/about us page/1.jpg"
+                            src="/Images/about us page/1.jpg"
                             className="img-fluid rounded shadow"
                             alt="Background image"
                             width="80%"
@@ -154,7 +166,7 @@ const AboutPage = () => {
                     <div className="row align-items-stretch g-0">
                         <div className="col-md-4">
                             <img
-                               src="/Images/about us page/444.jpg"
+                                src="/Images/about us page/444.jpg"
                                 className="img-fluid h-100 w-100 object-fit-cover"
                                 alt="Manufacturing process"
                                 style={{ objectFit: 'cover' }}
@@ -203,7 +215,7 @@ const AboutPage = () => {
                         </div>
                         <div className="col-md-4">
                             <img
-                               src="/Images/about us page/333.jpg"
+                                src="/Images/about us page/333.jpg"
                                 className="img-fluid h-100 w-100 object-fit-cover baguperimg"
                                 alt="Manufacturing process"
                                 style={{ objectFit: 'cover' }}

@@ -5,6 +5,13 @@ import Image from 'next/image';
 function ContactPage() {
   return (
     <div>
+          <title> Sportswear Manufacturing || Contact Us</title>
+      <meta name="description"  content="Have questions about custom sportswear, bulk production, or private-label manufacturing? 
+                Our team is here to help! We provide fast support for quotes, samples, pricing, fabric options, 
+                and full-cycle sportswear production!" />  
+  <link rel="canonical" href="/contact"></link>
+
+
       {/* Hero Section */}
       <section className="bg-primary text-white py-5">
         <div className="container">

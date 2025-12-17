@@ -23,6 +23,18 @@ function Portfolio() {
       {/* Hero Slider */}
       <Carousel controls indicators={false}>
         <Carousel.Item>
+
+
+              <title>  Efficient and High-Quality Sportswear Manufacturing</title>
+      <meta name="description"  content="    We are the leading sports apparel manufacturers, the one-stop solution for 
+             clothing brands seeking premium-quality sports clothing. We have been working 
+             closely with startups and established clothing lines for many years, helping them
+              launch their brands and become recognized in the apparel industry. We have helped 
+              numerous apparel brands and businesses
+              form their unique identities by creating strong and attractive product lines for them." />  
+  <link rel="canonical" href="/portfolio"></link>
+
+
           <div className="hero-slide">
             <div className="hero-overlay d-flex flex-column justify-content-end text-center text-white">
               <h1 className="fw-bold">
