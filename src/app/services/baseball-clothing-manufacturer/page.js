@@ -77,6 +77,11 @@ const Baseballclothingmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
+              <title>Baseball Jersey Manufacturers</title>
+      <meta name="description"  content="Start your top-tier baseball apparel brand with the leading <strong>sports apparel manufacturers</strong> in the USA. We are the professional
+                                    suppliers of custom baseball uniform team apparel engineered for performance, 
+                                    comfort, and durability." />  
+  <link rel="canonical" href="/services/baseball-clothing-manufacturer"></link>
             {/* Hero Section */}
             <section>
                 <div className='huntingapparel' style={slideStyle(Tracksuit)}>
@@ -102,7 +107,8 @@ const Baseballclothingmanufacturer = () => {
                                 <FaTshirt />
                                 <p className="textour">
                                     Start your top-tier baseball apparel brand with the leading <strong>sports apparel manufacturers</strong> in the USA. We are the professional
-                                    suppliers of custom baseball uniform team apparel engineered for performance, comfort, and durability.
+                                    suppliers of custom baseball uniform team apparel engineered for performance, 
+                                    comfort, and durability.
                                 </p>
                             </div>
                         </Col>
@@ -217,7 +223,7 @@ const Baseballclothingmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='sweatsuit'>
-                                <h1 className="sweat-title">Choose the Most Productive Baseball Clothing Manufacturer</h1>
+                                <h2 className="sweat-title">Choose the Most Productive Baseball Clothing Manufacturer.</h2>
                                 <p className="sweat-desc">
                                     Our customer services make us one of the best baseball jersey manufacturers. We offer the fastest turnaround time. Our low MOQ of 35 to 50 pieces makes it easier for both small- and large-scale baseball brands. Our quality control ensures that every product
                                     meets the global quality standards. We offer doorstep delivery to help you start your brand without any worries.
@@ -234,7 +240,7 @@ const Baseballclothingmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='gymnactic'>
-                                <h1 className="last-title">Become a Brand with Us?</h1>
+                                <h3 className="last-title">Become a Brand with Us?</h3>
                                 <button className='Brand-btn'>Begin Now</button>
                             </div>
                         </Col>

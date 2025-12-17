@@ -11,10 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Import images from public folder
 const images = [
-  "/Images/hoodie/Premium-Customization-and-Printing-Options1.jpg",
-  "/Images/hoodie/Premium-Customization-and-Printing-Options12.jpg",
-  "/Images/hoodie/Premium-Customization-and-Printing-Options13.jpg",
-  "/Images/hoodie/Premium-Customization-and-Printing-Options14.jpg"
+    "/Images/hoodie/Premium-Customization-and-Printing-Options1.jpg",
+    "/Images/hoodie/Premium-Customization-and-Printing-Options12.jpg",
+    "/Images/hoodie/Premium-Customization-and-Printing-Options13.jpg",
+    "/Images/hoodie/Premium-Customization-and-Printing-Options14.jpg"
 ];
 
 const bgBack = "/Images/Sweatsuit/bgback.jpg";
@@ -77,6 +77,11 @@ const Customhoodiemanufacturer = () => {
 
     return (
         <div className="textile-services-page">
+            <title>Custom Hoodie Manufacturer in the USA</title>
+            <meta name="description" content=" We help you create a unique product line with the help of our products and customization options.
+                                    We offer a vast range of hoodies and sweatshirts that can make your brand 
+                                    a market giant." />
+            <link rel="canonical" href="/services/custom-hoodie-manufacturer"></link>
             {/* Hero Section */}
             <section>
                 <div className='huntingapparel' style={slideStyle(Tracksuit)}>
@@ -102,7 +107,8 @@ const Customhoodiemanufacturer = () => {
                                 <FaTshirt />
                                 <p className="textour">
                                     We help you create a unique product line with the help of our products and customization options.
-                                    We offer a vast range of hoodies and sweatshirts that can make your brand a market giant.
+                                    We offer a vast range of hoodies and sweatshirts that can make your brand
+                                    a market giant.
                                 </p>
                             </div>
                         </Col>
@@ -223,7 +229,7 @@ const Customhoodiemanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='sweatsuit'>
-                                <h1 className="sweat-title">Private label Hoodies for Your Brand</h1>
+                                <h2 className="sweat-title">Private label Hoodies for Your Brand</h2>
                                 <p className="sweat-desc">
                                     You can start your unique hoodie line with the help of our private labeling services. From OEM and logo placements to custom labels and tags, we deliver informative
                                     and fully personalized private labels to give your brand an identity that prevails in the competitive market.
@@ -240,7 +246,7 @@ const Customhoodiemanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='gymnactic'>
-                                <h1 className="last-title">Launch and Scale Your Hoodie Brand with US?</h1>
+                                <h3 className="last-title">Launch and Scale Your Hoodie Brand with US?</h3>
                                 <button className='Brand-btn'>Begin Now</button>
                             </div>
                         </Col>

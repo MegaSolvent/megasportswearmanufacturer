@@ -10,6 +10,14 @@ import Image from 'next/image';
 // import ContactPopup from "../Contactpopup";
 import './style.css';
 
+
+// export const metadata = {
+//   title: 'Leading Custom Clothing Manufacturers in USA - Mega Apparel',
+//   description: 'Get high-quality customized sportswear from the best clothing manufacturer in USA at reasonable prices.',
+//   alternates: {
+//     canonical: '/',
+//   },
+// }
 // Move ALL images to public/Images/Homeimages/
 const images = {
   blog1: '/Images/Homeimages/Private-label.jpg',
@@ -126,8 +134,15 @@ function Home() {
   ];
 
   return (
+    
     <>
+  
       <Container fluid>
+            <title>SPORTWEAR MANUFACTURING</title>
+      <meta name="description"  content="Our professional sportswear manufacturing solutions blend technology, comfort, and style to deliver high-quality custom apparel, empowering sports clothing brands, teams, and athletes across the world.
+                                                Our products are created for performance, endurance and movement. From sports apparel and team uniforms to fitness clothing, Sportswear Manufacturing offers solutions to help brands dominate in
+                                                 the market." />  
+  <link rel="canonical" href="/"></link>
         <Row>
           <Col md={6} lg={6} xl={6}>
             <div className='herosection'>
@@ -135,16 +150,16 @@ function Home() {
               <div className='sportcloth'>
                 <Row>
                   <Col md={6} lg={6} xl={6}>
-                    <img 
-                      src={images.leftimg} 
-                      width={300} 
-                      height={350} 
+                    <img
+                      src={images.leftimg}
+                      width={300}
+                      height={350}
                       alt={`Slide ${currentImageIndex + 1}`}
                       className="leftsideimg"
                     />
                   </Col>
                   <Col>
-                    <p className="description">
+                   <p className="description">
                       Our professional sportswear manufacturing solutions blend technology, comfort, and style to deliver
                       high-quality custom apparel, empowering sports clothing brands, teams, and athletes across the world.
                     </p>
@@ -245,10 +260,10 @@ function Home() {
                 High-Quality Men's & Women's Sportswear Manufacturer
               </h1>
               <p className="Trust-wear">
-            Trust us as your athletic wear manufacturers to avail complete end-to-end production services, 
-            including design, customization, and packaging, under one roof. From premium quality training wear to 
-            <strong>custom golf apparel, </strong>
-            football kits and basketball uniforms for men and women; we manufacture everything you desire.
+                Trust us as your athletic wear manufacturers to avail complete end-to-end production services,
+                including design, customization, and packaging, under one roof. From premium quality training wear to
+                <strong>custom golf apparel, </strong>
+                football kits and basketball uniforms for men and women; we manufacture everything you desire.
               </p>
               <div className="d-flex gap-3">
                 <button className="Home-btn">BEGIN NOW</button>
@@ -322,10 +337,10 @@ function Home() {
                     Private label Activewear<br /> Manufacturer: Production Solutions
                   </h2>
                   <p className="overlay-description">
-                  As a private label <strong>activewear manufacturer,</strong> we offer apparel that resonates with modern 
-                  fitness and sports demands. With the help of our effective <strong>cut & sew garment production</strong> and private labeling 
-                  services, our products feature premium qualities and tags that enhance your brand’s identity. 
-                   making us one of the most reliable manufacturers of sportswear in the industry.</p>
+                    As a private label <strong>activewear manufacturer,</strong> we offer apparel that resonates with modern
+                    fitness and sports demands. With the help of our effective <strong>cut & sew garment production</strong> and private labeling
+                    services, our products feature premium qualities and tags that enhance your brand’s identity.
+                    making us one of the most reliable manufacturers of sportswear in the industry.</p>
                   <Button variant="light" size="lg" className="Explore-btn">EXPLORE CATALOG</Button>
                 </div>
               </div>
@@ -337,8 +352,8 @@ function Home() {
                 <div className="overlay-content text-center">
                   <h2 className="overlay-title">Custom Sportswear Production <br /> Company Offers Premium Fabrics</h2>
                   <p className="overlay-description">
-                 Being a trusted sportswear supplier in the industry, we focus on innovations and advancements in clothing through fabric excellence. Our athletic and fitness clothing is crafted with premium materials like moisture-wicking polyester,
-                  flexible spandex, breathable mesh, and more to provide you with optimal durability and comfort.
+                    Being a trusted sportswear supplier in the industry, we focus on innovations and advancements in clothing through fabric excellence. Our athletic and fitness clothing is crafted with premium materials like moisture-wicking polyester,
+                    flexible spandex, breathable mesh, and more to provide you with optimal durability and comfort.
                   </p>
                   <Button variant="light" size="lg" className="Explore-btn">EXPLORE CATALOG</Button>
                 </div>
@@ -355,8 +370,8 @@ function Home() {
             Customization And Printing for Custom Fitness & Sportswear...
           </h2>
           <p className="text-muted">
-           You need a sports and <strong>fitness clothing manufacturer</strong> that can customize products to help your brand stand out in the market. We can be your trusted choice to bring your designs to life with advanced customization and printing methods. We offer limitless personalization options along with cutting-edge sublimation printing for vibrant full-color graphics, heat printing for 
-           detailed logos, screen printing for durable designs, embroidery for textured detailing, and much more.
+            You need a sports and <strong>fitness clothing manufacturer</strong> that can customize products to help your brand stand out in the market. We can be your trusted choice to bring your designs to life with advanced customization and printing methods. We offer limitless personalization options along with cutting-edge sublimation printing for vibrant full-color graphics, heat printing for
+            detailed logos, screen printing for durable designs, embroidery for textured detailing, and much more.
           </p>
           <button className="Home-btn" onClick={handleButtonClick}>
             Learn More About Customization

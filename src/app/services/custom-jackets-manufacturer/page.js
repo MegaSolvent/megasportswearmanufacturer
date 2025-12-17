@@ -69,15 +69,22 @@ const Customjacketsmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
+      <title> Custom Jackets Manufacture</title>
+      <meta name="description" content="As your trusted custom jackets manufacturer, we strive to give
+                  the most iconic types of jackets and coats that can dominate
+                  the market. We use premium-quality fabrics and modern
+                  production methods to create the jackets and coats." />
+      <link rel="canonical" href="/services/custom-jackets-manufacturer"></link>
       {/* Banner Section */}
-       <section>
+      <section>
         <div className='yogaapparel'
-          style={{ backgroundImage: "url('/Images/jacekt/bannewr.jpg')"
+          style={{
+            backgroundImage: "url('/Images/jacekt/bannewr.jpg')"
           }} >
           <div style={overlayStyle}></div>
           <div style={contentStyle}>
             <h1 className="tenistitle" >
-           Custom Jackets Manufacture
+              Custom Jackets Manufacture
             </h1>
           </div>
         </div>
@@ -91,8 +98,8 @@ const Customjacketsmanufacturer = () => {
             <Col md={6} className="position-relative">
               <Image
                 src="/Images/jacekt/Types-of-Jackets-We-Manufacture.jpg"
-                 width={600}
-                height={400}
+                width={600}
+                height={300}
                 className="img-fluid rounded shadow"
               />
 
@@ -232,14 +239,15 @@ const Customjacketsmanufacturer = () => {
       </section>
 
       {/* End to End Section */}
-      <div className="sweat-section" 
-    style={{ backgroundImage: "url('/Images/jacekt/55.jpg')"
-    }} >
+      <div className="sweat-section"
+        style={{
+          backgroundImage: "url('/Images/jacekt/55.jpg')"
+        }} >
         <Container>
           <Row>
             <Col md={12}>
               <div className="sweatsuit">
-                <h1 className="sweat-title">End-to-End Production Solutions</h1>
+                <h2 className="sweat-title">End-to-End Production Solutions</h2>
                 <p className="sweat-desc">
                   We believe in providing the best production solutions to keep our
                   customers satisfied. We offer a fast turnaround time to deliver
@@ -253,15 +261,15 @@ const Customjacketsmanufacturer = () => {
       </div>
 
       {/* Final Section */}
-      <div className="last-section"  
-       style={{ backgroundImage: "url('/Images/Sweatsuit/bgback.jpg')" }} >
+      <div className="last-section"
+        style={{ backgroundImage: "url('/Images/Sweatsuit/bgback.jpg')" }} >
         <Container>
           <Row>
             <Col md={12}>
               <div className="gymnactic">
-                <h1 className="last-title">
+                <h3 className="last-title">
                   Ready to Start Your Journey as a Clothing Brand?
-                </h1>
+                </h3>
                 <button className="Brand-btn">Start Right Away</button>
               </div>
             </Col>

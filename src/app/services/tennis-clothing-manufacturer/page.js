@@ -77,6 +77,11 @@ const Tennisclothingmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
+         <title>Custom Tennis Clothing Manufacturer</title>
+            <meta name="description" content=" We help tennis clothing brands, teams,
+                  and private labels start their clothing lines and build up a clothing
+                  line that dominates the competitive market." />
+            <link rel="canonical" href="/services/tennis-clothing-manufacturer"></link>
       {/* Hero Section */}
       <section>
         <div className='yogaapparel'
@@ -229,9 +234,9 @@ const Tennisclothingmanufacturer = () => {
           <Row>
             <Col md={12}>
               <div className='Tenis'>
-                <h1 className="Tenis-title">
+                <h2 className="Tenis-title">
                   Private Labeling Options to Enhance Brand Identity
-                </h1>
+                </h2>
                 <p className="Tanis-desc">
                   As your trusted tennis apparel supplier, we offer end-to-end private labeling options to enhance your brand's identity. Our products are designed with precision and delivered with custom tags,
                   labels, and logos of your choosing. We allow you to design your labels according to your brand's image.
@@ -251,9 +256,9 @@ const Tennisclothingmanufacturer = () => {
           <Row>
             <Col md={12}>
               <div className='performan_under'>
-                <h1 className="last-title">
+                <h3 className="last-title">
                   Your Performance-Driven Underwear Brand Awaits?
-                </h1>
+                </h3>
                 <button className='Brand-btn'>Begin Now</button>
               </div>
             </Col>

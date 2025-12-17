@@ -1,0 +1,35 @@
+/* POPUP FORM  */
+
+.popup-overlay {
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(5px);
+}
+
+.popup-card {
+  max-width: 600px;
+  width: 90%;
+  /* max-height: 80vh; */
+  overflow-y: auto;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.popup-input, .popup-textarea {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: all 0.2s;
+}
+.fw-semibold {
+    font-weight: 600 !important;
+    font-size: 14px;
+}
+button.btn-close.popup-close.position-absolute.top-0.end-0.m-3 {
+    background-color: white !important;
+}
+
+.popup-submit {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}

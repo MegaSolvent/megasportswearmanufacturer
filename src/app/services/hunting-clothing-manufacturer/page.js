@@ -78,6 +78,10 @@ const HuntingclothingManufacturer = () => {
 
   return (
     <div className="textile-services-page">
+           <title>Hunting Apparel Manufacturer</title>
+            <meta name="description" content="  Our custom hunting gear is built for performance, stealth, and comfort — ideal for hunters,
+                   outdoor enthusiasts, and active brands wanting top-tier quality gear." />
+            <link rel="canonical" href="/services/hunting-clothing-manufacturer"></link>
       {/* Banner */}
 
          <section>
@@ -109,7 +113,8 @@ const HuntingclothingManufacturer = () => {
               <div className="uppersection">
                 <FaTshirt />
                 <p className="textour">
-                  Our custom hunting gear is built for performance, stealth, and comfort — ideal for hunters, outdoor enthusiasts, and active brands wanting top-tier quality gear.
+                  Our custom hunting gear is built for performance, stealth, and comfort — ideal for hunters,
+                   outdoor enthusiasts, and active brands wanting top-tier quality gear.
                 </p>
               </div>
             </Col>
@@ -230,7 +235,7 @@ const HuntingclothingManufacturer = () => {
           <Row>
             <Col md={12}>
               <div className="sweatsuit">
-                <h1 className="sweat-title">We Are the Best Option for You</h1>
+                <h2 className="sweat-title">We Are the Best Option for You</h2>
                 <p className="sweat-desc">
                   Work with the best hunting clothing manufacturer. Low MOQ (35–50 pieces), quick sampling, fast turnaround, and doorstep delivery make branding effortless.
                 </p>
@@ -247,9 +252,9 @@ const HuntingclothingManufacturer = () => {
           <Row>
             <Col md={12}>
               <div className="sweatset">
-                <h1 className="last-title">
+                <h3 className="last-title">
                   Ready to Become a Brand with the Top Hunting Apparel Manufacturer?
-                </h1>
+                </h3>
                 <button className="Brand-btn">Get Quote</button>
               </div>
             </Col>

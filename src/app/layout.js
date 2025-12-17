@@ -6,8 +6,6 @@ import Footer from "./components/Footer";
 import BootstrapClient from "./components/BootstrapClient";
 
 export const metadata = {
-  title: 'Mega Sportswear Apparel - Custom Sportswear Manufacturer',
-  description: 'Premium tennis clothing, golf apparel & gym wear manufacturer',
   icons: {
     icon: '/next.svg',  // Ya '/favicon.ico'
     shortcut: '/next.svg',

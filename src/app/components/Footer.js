@@ -84,7 +84,7 @@ function Footer() {
             <div className="col-md-3">
               <h5 className="fw-bold mb-3">Company</h5>
               <ul className="list-order text-white">
-                <a href="/about-us">
+                <a href="/about">
                   <p>About Us</p>
                 </a>
                 <a href="/portfolio">
@@ -93,7 +93,7 @@ function Footer() {
                 <a href="/blogs">
                   <p>Blogs</p>
                 </a>
-                <a href="/contact-us">
+                <a href="/contact">
                   <p>Contact</p>
                 </a>
               </ul>
@@ -103,22 +103,22 @@ function Footer() {
             <div className="col-md-3">
               <h5 className="fw-bold mb-3">Services</h5>
               <ul className="serviceslist">
-                <a href="/tennis-clothing-manufacturer">
+                <a href="/services/tennis-clothing-manufacturer">
                   <p>Tennis Clothing Manufacturer</p>
                 </a>
-                <a href="/golf-apparel-manufacturer">
+                <a href="/services/golf-apparel-manufacturer">
                   <p>Golf Apparel Manufacturer</p>
                 </a>
-                <a href="/sweat-suit-manufacturer">
+                <a href="/services/sweat-suit-manufacturer">
                   <p>Sweat Suit Manufacturer</p>
                 </a>
-                <a href="/gym-clothing-manufacturer">
+                <a href="/services/gym-clothing-manufacturer">
                   <p>Gym Clothing Manufacturer</p>
                 </a>
-                <a href="/Cycling-clothing-manufacturers">
+                <a href="/services/cycling-clothing-manufacturer">
                   <p>Cycling Clothing Manufacturers</p>
                 </a>
-                <a href="/Yoga-wear-manufacturer">
+                <a href="/services/yoga-wear-manufacturer">
                   <p>Yoga Wear Manufacturer</p>
                 </a>
               </ul>

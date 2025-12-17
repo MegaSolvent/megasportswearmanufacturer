@@ -77,6 +77,11 @@ const Customunderwearmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
+             <title> Underwear Manufacturer in the USA</title>
+            <meta name="description" content="     As a leading underwear manufacturer in the USA, we specialize in crafting 
+                                    premium-quality, soft, comfortable, and durable underwear for your clothing brand. We cater to fitness labels and businesses of all sizes, delivering the underwear that resonates with your brand's requirements.
+                                    Seamless sustainable underwear production." />
+            <link rel="canonical" href="/services/custom-underwear-manufacturer"></link>
             {/* Hero Section */}
             <section>
                 <div className='huntingapparel' style={slideStyle(Tracksuit)}>
@@ -229,7 +234,7 @@ const Customunderwearmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='underwear'>
-                                <h1 className="sweat-title">Seamless & Sustainable Underwear Production</h1>
+                                <h2 className="sweat-title">Seamless & Sustainable Underwear Production</h2>
                                 <p className="sweat-desc">
                                     We incorporate eco-friendly yarns, breathable materials, and recycled 
                                     materials to meet the global sustainability standards while maintaining quality, aesthetics, and comfort.
@@ -246,7 +251,7 @@ const Customunderwearmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='gymnactic'>
-                                <h1 className="last-title">Start a Performance-Driven Underwear Brand with Us?</h1>
+                                <h3 className="last-title">Start a Performance-Driven Underwear Brand with Us?</h3>
                                 <button className='Brand-btn'>Partner With Us</button>
                             </div>
                         </Col>

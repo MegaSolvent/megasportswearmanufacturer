@@ -77,6 +77,11 @@ const Fishingshirtmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
+            <title>Fishing Apparel Manufacturers</title>
+            <meta name="description" content="   We are a trusted sports apparel manufacturer that creates performance-driven custom fishing shirts tailored specifically for swimwear
+                                    brands, professional anglers, retailers, and small- and large-scale private 
+                                    label clothing lines." />
+            <link rel="canonical" href="/services/fishing-shirt-manufacturer"></link>
             {/* Hero Section */}
             <section>
                 <div className='huntingapparel' style={slideStyle(Tracksuit)}>
@@ -102,7 +107,8 @@ const Fishingshirtmanufacturer = () => {
                                 <FaTshirt />
                                 <p className="textour">
                                     We are a trusted sports apparel manufacturer that creates performance-driven custom fishing shirts tailored specifically for swimwear
-                                    brands, professional anglers, retailers, and small- and large-scale private label clothing lines.
+                                    brands, professional anglers, retailers, and small- and large-scale private 
+                                    label clothing lines.
                                 </p>
                             </div>
                         </Col>
@@ -211,7 +217,7 @@ const Fishingshirtmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='sweatsuit'>
-                                <h1 className="sweat-title">Combine Innovation with Performance</h1>
+                                <h2 className="sweat-title">Combine Innovation with Performance</h2>
                                 <p className="sweat-desc">
                                     We use high-performance materials to protect the wearer from harsh weather conditions. The added breathability and enhanced durability make the fishing shirts withstand tough usage.
                                     Our quality control measures ensure the custom fishing shirts can inspire your customers to perform well.
@@ -228,7 +234,7 @@ const Fishingshirtmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='whychose'>
-                                <h1 className="last-title">Why Choose Us?</h1>
+                                <h3 className="last-title">Why Choose Us?</h3>
                                 <p className="success">
                                     We are here to help you become a successful brand with our products and services. Our low MOQ of 35 to 50 pieces per color and design allows you to start either small or big. Our bulk order discounts help you start a wider product line.
                                     We offer a fast turnaround time and doorstep delivery to strengthen our professional relationship.

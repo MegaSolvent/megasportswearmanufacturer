@@ -1,12 +1,13 @@
 'use client';
 import React, { useState } from "react";
-import { Navbar, Nav, Container, Row, Col,Dropdown, NavDropdown, Button } from "react-bootstrap";
+import { Navbar, Nav, Container, Row, Col, Dropdown, NavDropdown, Button } from "react-bootstrap";
 import './style.css';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaComments } from 'react-icons/fa';
+import QuotePopup from '../popupform/page';
 
 function Header() {
-  const [expanded, setExpanded] = useState(false); // 🔥 Navbar open/close state
-
+  const [expanded, setExpanded] = useState(false);
+  const [showPopup, setShowPopup] = useState(false); // 🔥 Popup state
   const handleNavClick = () => {
     setExpanded(false); // 🔥 Auto close on menu click
   };
@@ -55,7 +56,7 @@ function Header() {
                   <Row>
                     <Col md={6}>
                       <h6 className="fw-bold">Textile</h6>
-                     
+
                       <NavDropdown.Item href="/services/tennis-clothing-manufacturer" onClick={handleNavClick}>Tennis Clothing Manufacturer</NavDropdown.Item><Dropdown.Divider />
                       <NavDropdown.Item href="/services/golf-apparel-manufacturer" onClick={handleNavClick}>Golf Apparel Manufacturer</NavDropdown.Item><Dropdown.Divider />
                       <NavDropdown.Item href="/services/sweat-suit-manufacturer" onClick={handleNavClick}>Sweat Suit Manufacturer</NavDropdown.Item><Dropdown.Divider />
@@ -69,12 +70,12 @@ function Header() {
                       <h6 className="fw-bold">Apparel</h6>
                       <NavDropdown.Item href="/services/yoga-wear-manufacturer" onClick={handleNavClick}>Yoga Wear Manufacturer</NavDropdown.Item><Dropdown.Divider />
                       <NavDropdown.Item href="/services/hunting-clothing-manufacturer" onClick={handleNavClick}>Hunting Clothing Manufacturer</NavDropdown.Item><Dropdown.Divider />
-                   <NavDropdown.Item href="/services/custom-tracksuit-manufacturer" onClick={handleNavClick}>Custom Tracksuit Manufacturers</NavDropdown.Item><Dropdown.Divider />
-                <NavDropdown.Item href="/services/baseball-clothing-manufacturer" onClick={handleNavClick}>Baseball Clothing Manufacturers</NavDropdown.Item><Dropdown.Divider />
-                     <NavDropdown.Item href="/services/custom-hoodie-manufacturer" onClick={handleNavClick}>Custom Hoodie Manufacturer</NavDropdown.Item><Dropdown.Divider />
+                      <NavDropdown.Item href="/services/custom-tracksuit-manufacturer" onClick={handleNavClick}>Custom Tracksuit Manufacturers</NavDropdown.Item><Dropdown.Divider />
+                      <NavDropdown.Item href="/services/baseball-clothing-manufacturer" onClick={handleNavClick}>Baseball Clothing Manufacturers</NavDropdown.Item><Dropdown.Divider />
+                      <NavDropdown.Item href="/services/custom-hoodie-manufacturer" onClick={handleNavClick}>Custom Hoodie Manufacturer</NavDropdown.Item><Dropdown.Divider />
                       <NavDropdown.Item href="/services/custom-underwear-manufacturer" onClick={handleNavClick}>Custom Underwear Manufacturer</NavDropdown.Item><Dropdown.Divider />
-                     <NavDropdown.Item href="/services/custom-pajama-manufacturer" onClick={handleNavClick}>Custom Pajama Manufacturer</NavDropdown.Item><Dropdown.Divider />
-                     <NavDropdown.Item href="/services/fishing-shirt-manufacturer" onClick={handleNavClick}>Fishing Shirts Manufacturing</NavDropdown.Item><Dropdown.Divider />
+                      <NavDropdown.Item href="/services/custom-pajama-manufacturer" onClick={handleNavClick}>Custom Pajama Manufacturer</NavDropdown.Item><Dropdown.Divider />
+                      <NavDropdown.Item href="/services/fishing-shirt-manufacturer" onClick={handleNavClick}>Fishing Shirts Manufacturing</NavDropdown.Item><Dropdown.Divider />
                     </Col>
                   </Row>
                 </div>
@@ -87,14 +88,19 @@ function Header() {
             </Nav>
 
             <div className="ms-auto">
-              <Button variant="home-btn-primary" onClick={() => setExpanded(false)}>
-                GET STARTED
-              </Button>
+            <QuotePopup 
+        isOpen={showPopup} 
+        onClose={() => setShowPopup(false)} 
+      />
+
             </div>
 
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
+       {/* 🔥 POPUP RENDER - Header ke BAAD */}
+      
     </>
   );
 }

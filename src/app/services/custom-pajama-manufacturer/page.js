@@ -11,10 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Import images from public folder
 const images = [
-  "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions1.jpg",
-  "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions2.jpg",
-  "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions3.jpg",
-  "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions4.jpg"
+    "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions1.jpg",
+    "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions2.jpg",
+    "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions3.jpg",
+    "/Images/pajama/Private-Label-Pajamas-and-OEM-Solutions4.jpg"
 ];
 
 const bgBack = "/Images/Sweatsuit/bgback.jpg";
@@ -77,6 +77,10 @@ const Custompajamamanufacturer = () => {
 
     return (
         <div className="textile-services-page">
+            <title>Custom Pajama Manufacturers</title>
+            <meta name="description" content="As a reliable pajama supplier, our aim is to provide brands with unmatched comfort, lightweight sleepwear, moisture control, and an amazing lounging experience in the form of our pajamas. With our all-season collection and customization methods, you can get a diverse pajama selection for various activities,
+                                    including fitness, yoga, relaxing, and lounging." />
+            <link rel="canonical" href="/services/custom-pajama-manufacturer"></link>
             {/* Hero Section */}
             <section>
                 <div className='huntingapparel' style={slideStyle(Tracksuit)}>
@@ -213,7 +217,7 @@ const Custompajamamanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='sweatsuit'>
-                                <h1 className="sweat-title">Advanced Printing Techniques for Your Clothing Line</h1>
+                                <h2 className="sweat-title">Advanced Printing Techniques for Your Clothing Line</h2>
                                 <p className="sweat-desc">
                                     We specialize in making your pajamas one of a kind using our advanced printing methods. Our screen printing is ideal for bulk orders and bold logos. We use sublimation printing for all-over prints, outstanding patterns, and vibrant prints. Our DTG (direct to garment) printing adds details and creates a variety of colors on small batches. We offer
                                     modern printing with durable designs on different fabrics using our efficient DTF (direct to fabric) printing.
@@ -246,7 +250,7 @@ const Custompajamamanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='gymnactic'>
-                                <h1 className="last-title">Become a Market Giant with Unique Pajama Collection?</h1>
+                                <h3 className="last-title">Become a Market Giant with Unique Pajama Collection?</h3>
                                 <button className='Brand-btn'>Start Now</button>
                             </div>
                         </Col>

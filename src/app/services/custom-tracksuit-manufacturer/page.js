@@ -77,6 +77,10 @@ const Customtracksuitmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
+              <title>  Custom Tracksuit Manufacturers</title>
+            <meta name="description" content="  We offer a full range of tracksuit products that are created using high-quality materials and excellent craftsmanship.
+                                    Our designers sew every piece of thread with precision." />
+            <link rel="canonical" href="/services/custom-tracksuit-manufacturer"></link>
             {/* Hero Section */}
             <section>
                 <div className='huntingapparel' style={slideStyle(Tracksuit)}>
@@ -219,7 +223,7 @@ const Customtracksuitmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='sweatsuit'>
-                                <h1 className="sweat-title">Choose Us to Avail the Best Services</h1>
+                                <h2 className="sweat-title">Choose Us to Avail the Best Services</h2>
                                 <p className="sweat-desc">
                                     We offer the best services to build trust that lasts forever. Considering the needs of
                                     clothing brands, we offer a low MOQ of 35 to 50 pieces, fast turnaround time,
@@ -237,7 +241,7 @@ const Customtracksuitmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='gymnactic'>
-                                <h1 className="last-title">Take Your Tracksuit Brand to the Next Level?</h1>
+                                <h3 className="last-title">Take Your Tracksuit Brand to the Next Level?</h3>
                                 <button className='Brand-btn'>Begin Now</button>
                             </div>
                         </Col>

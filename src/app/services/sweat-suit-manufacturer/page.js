@@ -83,6 +83,13 @@ const SweatsuitManufacturer = () => {
 
     return (
         <div className="textile-services-page">
+                <title>Sweatsuit Apparel Manufacturer</title>
+            <meta name="description" content=" Our reputation extends beyond just jogging suit manufacturers; we are the producers of custom
+                                    sweatsuits designed to improve your style and performance. We craft your sweatsuits using modern fabrics like
+                                    polyester blends, terry cloth, fleece and other advanced materials to ensure optimal comfort.
+                                    Each piece is given a unique color palette and design to reflect your brand’s 
+                                    identity." />
+            <link rel="canonical" href="/services/sweat-suit-manufacturer"></link>
             {/* Hero banner */}
            
              <section>
@@ -115,7 +122,8 @@ const SweatsuitManufacturer = () => {
                                     Our reputation extends beyond just jogging suit manufacturers; we are the producers of custom
                                     sweatsuits designed to improve your style and performance. We craft your sweatsuits using modern fabrics like
                                     polyester blends, terry cloth, fleece and other advanced materials to ensure optimal comfort.
-                                    Each piece is given a unique color palette and design to reflect your brand’s identity.
+                                    Each piece is given a unique color palette and design to reflect your brand’s 
+                                    identity.
                                 </p>
                             </div>
                         </Col>
@@ -248,7 +256,7 @@ const SweatsuitManufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='sweatsuit'>
-                                <h1 className="sweat-title">Advanced Printing Methods for You to Stand Out</h1>
+                                <h2 className="sweat-title">Advanced Printing Methods for You to Stand Out</h2>
                                 <p className="sweat-desc">
                                     We design products with the most advanced printing methods to help you get unique products exclusive to your brand. We offer heat printing, sublimation printing, vinyl printing, digital printing,
                                     DTF (direct-to-film), DTG (direct-to-garment), and more.
@@ -268,9 +276,9 @@ const SweatsuitManufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='sweatset'>
-                                <h1 className="last-title">
+                                <h3 className="last-title">
                                     Ready to Partner with a Trusted Sweatsuit Manufacturer?
-                                </h1>
+                                </h3>
                                 <button className='Brand-btn'>
                                     Start Building Your Brand
                                 </button>

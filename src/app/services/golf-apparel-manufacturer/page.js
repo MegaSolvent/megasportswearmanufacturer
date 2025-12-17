@@ -78,7 +78,11 @@ const Golfapparelmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-
+   <title>  Golf Apparel Manufacturer</title>
+            <meta name="description" content="  We offer end-to-end solutions ranging from fabric sourcing and stitching to complete bulk golf wear manufacturing.
+                                    Our excellent production ensures that every product reflects your brand's 
+                                    style and performance values." />
+            <link rel="canonical" href="/services/golf-apparel-manufacturer"></link>
             <section>
                 <div className='yogaapparel'
                     style={{ backgroundImage: "url('/Images/Golf/bannner.jpg')" }} >
@@ -108,7 +112,8 @@ const Golfapparelmanufacturer = () => {
                                 <FaTshirt />
                                 <p className="textour">
                                     We offer end-to-end solutions ranging from fabric sourcing and stitching to complete bulk golf wear manufacturing.
-                                    Our excellent production ensures that every product reflects your brand's style and performance values.
+                                    Our excellent production ensures that every product reflects your brand's 
+                                    style and performance values.
                                 </p>
                             </div>
                         </Col>
@@ -231,7 +236,8 @@ const Golfapparelmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='golf-sublimation'>
-                                <h1 className="Golf-Polo">Golf Polo Shirt Manufacturer with Promising <br />Customer Services</h1>
+                                <h2 className="Golf-Polo">Golf Polo Shirt Manufacturer with Promising <br />Customer Services.
+                                </h2>
                                 <p className="Golf-desc">
                                     We are committed to quality and sustainability. We provide our customers with the best services possible. From sampling and prototyping to quality inspection and dispatching the order, we take care of every little detail. Our low MOQ of 35 to 50 pieces per color and design allows you to start a brand with a minimum risk. Moreover,
                                     our bulk order discount and flexible payment methods make your journey to becoming a market giant easier.
@@ -248,7 +254,7 @@ const Golfapparelmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='golfapp'>
-                                <h1 className="last-title">Ready to Launch and Elevate Your<br /> Golf Clothing Brand?</h1>
+                                <h3 className="last-title">Ready to Launch and Elevate Your<br /> Golf Clothing Brand?</h3>
                                 <button className='Brand-btn'>Start Building Your Brand</button>
                             </div>
                         </Col>

@@ -67,6 +67,12 @@ const Customshortsmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
+       <title>  Custom Shorts Manufacturer</title>
+            <meta name="description" content="   We are your go-to custom shorts manufacturers for high-quality,
+                  comfortable and durable shorts. We help your brand begin its journey
+                  to success with <strong>custom sports apparel</strong> and many
+                  customization options." />
+            <link rel="canonical" href="/services/custom-shorts-manufacturer"></link>
       {/* Banner */}
 
       <section>
@@ -219,7 +225,7 @@ const Customshortsmanufacturer = () => {
           <Row>
             <Col md={12}>
               <div className="sweatsuit">
-                <h1 className="sweat-title">Modern Printing Methods for Stunning Shorts</h1>
+                <h2 className="sweat-title">Modern Printing Methods for Stunning Shorts</h2>
                 <p className="sweat-desc">
                   We use advanced printing techniques such as sublimation, heat press,
                   vinyl, DTF, and DTG to make your shorts vibrant, durable, and
@@ -238,7 +244,7 @@ const Customshortsmanufacturer = () => {
           <Row>
             <Col md={12}>
               <div className="gymnactic">
-                <h1 className="last-title">Choose Us for the Best Customer Services</h1>
+                <h3 className="last-title">Choose Us for the Best Customer Services</h3>
                 <button className="Brand-btn">Start Building Your Brand</button>
               </div>
             </Col>

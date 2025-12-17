@@ -78,6 +78,12 @@ const Gymnasticsleotardmanufacturers = () => {
 
   return (
     <div className="textile-services-page">
+
+         <title>   Gymnastics Leotard Manufacturer</title>
+            <meta name="description" content=" Being a reliable gymnastics apparel company, we manufacture products for durability, 
+                  performance, and style. Our custom gymnastics sportswear ensures excellence in aerobic 
+                  gymnastics, tumbling, practicing acrobatics, and more." />
+            <link rel="canonical" href="/services/gymnastics-leotard-manufacturer"></link>
       {/* Hero Banner */}
      <section>
         <div className='yogaapparel'
@@ -105,7 +111,9 @@ const Gymnasticsleotardmanufacturers = () => {
               <div className="uppersection">
                 <FaTshirt />
                 <p className="textour">
-                  Being a reliable gymnastics apparel company, we manufacture products for durability, performance, and style. Our custom gymnastics sportswear ensures excellence in aerobic gymnastics, tumbling, practicing acrobatics, and more.
+                  Being a reliable gymnastics apparel company, we manufacture products for durability, 
+                  performance, and style. Our custom gymnastics sportswear ensures excellence in aerobic 
+                  gymnastics, tumbling, practicing acrobatics, and more.
                 </p>
               </div>
             </Col>
@@ -237,9 +245,9 @@ const Gymnasticsleotardmanufacturers = () => {
           <Row>
             <Col md={12}>
               <div className="sweatsuit">
-                <h1 className="sweat-title">
+                <h2 className="sweat-title">
                   Private Labeling for Your Brand’s Strong Market Presence
-                </h1>
+                </h2>
                 <p className="sweat-desc">
                   Our private labeling services are ideal for enhancing your brand identity. Customize your tags, labels, and placement to stand out.
                 </p>
@@ -258,9 +266,9 @@ const Gymnasticsleotardmanufacturers = () => {
           <Row>
             <Col md={12}>
               <div className="gymnactic">
-                <h1 className="last-title">
+                <h3 className="last-title">
                   Build Your Brand from Scratch — Customize Your Own Products
-                </h1>
+                </h3>
                 <button className="Brand-btn">Begin Now</button>
               </div>
             </Col>

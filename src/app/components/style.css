@@ -544,6 +544,9 @@ p.overlay-description {
     margin-left: 0rem;
     
 }
+.top-header {
+    display: none;
+}
 .description {
     margin-right: 0px;
 }
@@ -1211,3 +1214,4 @@ button.cprint-button {
      padding-bottom: 50px;
    }
 }
+

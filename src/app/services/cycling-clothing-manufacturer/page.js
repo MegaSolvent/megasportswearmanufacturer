@@ -77,7 +77,11 @@ const Cyclingclothingmanufacturers = () => {
 
   return (
     <div className="textile-services-page">
-
+  <title>Custom Cycling Clothing Manufacturer in The USA</title>
+            <meta name="description" content="  Partner with a reliable custom <strong>athletic clothing manufacturer,</strong> delivering high-quality, performance-driven
+                  cycling wear for clothing lines, retailers, fitness labels, and all small- and large-scale 
+                  sports apparel brands." />
+            <link rel="canonical" href="/services/cycling-clothing-manufacturer"></link>
       <section>
         <div className='yogaapparel'
           style={{ backgroundImage: "url('/Images/cycling/banner.jpg')" }} >
@@ -105,7 +109,8 @@ const Cyclingclothingmanufacturers = () => {
                 <FaTshirt />
                 <p className="textour">
                   Partner with a reliable custom <strong>athletic clothing manufacturer,</strong> delivering high-quality, performance-driven
-                  cycling wear for clothing lines, retailers, fitness labels, and all small- and large-scale sports apparel brands.
+                  cycling wear for clothing lines, retailers, fitness labels, and all small- and large-scale 
+                  sports apparel brands.
                 </p>
               </div>
             </Col>
@@ -217,7 +222,7 @@ const Cyclingclothingmanufacturers = () => {
           <Row>
             <Col md={12}>
               <div className="cyc-sublimation">
-                <h1 className="Golf-Polo">Choose Us to Build a Strong Clothing Line</h1>
+                <h2 className="Golf-Polo">Choose Us to Build a Strong Clothing Line</h2>
                 <p className="Golf-desc">
                   Let’s build your cycling collection with fast turnaround, low MOQ, and excellent service.
                 </p>
@@ -234,7 +239,7 @@ const Cyclingclothingmanufacturers = () => {
           <Row>
             <Col md={12}>
               <div className="golfapp">
-                <h1 className="last-title">Ready to Build a Successful Cycling Apparel Brand?</h1>
+                <h3 className="last-title">Ready to Build a Successful Cycling Apparel Brand?</h3>
                 <button className="Brand-btn">Start Right Away</button>
               </div>
             </Col>

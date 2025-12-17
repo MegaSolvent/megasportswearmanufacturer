@@ -71,6 +71,11 @@ const Yogawearmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
+         <title> Custom Yoga Wear Manufacturer</title>
+            <meta name="description" content="    We create iconic gym clothing that includes the perfect yoga
+                  wear for your brand. Our product line includes practical yoga
+                  clothes that support yoga, cardio, and fitness activities." />
+            <link rel="canonical" href="/services/yoga-wear-manufacturer"></link>
       {/* Banner */}
 
       <section>
@@ -237,9 +242,9 @@ const Yogawearmanufacturer = () => {
           <Row>
             <Col md={12}>
               <div className="Yogawear">
-                <h1 className="Yoga-title">
+                <h2 className="Yoga-title">
                   Private Label Yoga Clothing to Elevate Brand Identity
-                </h1>
+                </h2>
                 <p className="yoga-desc">
                   Build your brand identity with our private label yoga clothing
                   options. We offer custom tags and labels to make your products
@@ -258,10 +263,10 @@ const Yogawearmanufacturer = () => {
           <Row>
             <Col md={12}>
               <div className="yogawearss">
-                <h1 className="last-title">
+                <h3 className="last-title">
                   Start and Level Up Your Brand with Our<br /> Custom
                   Manufacturing
-                </h1>
+                </h3>
                 <p className="carefully">
                   Start small or big with our low MOQ of 35–50 pieces per design.
                   Fast production, sample options, and doorstep delivery save

@@ -84,6 +84,13 @@ const Gymclothingmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
+
+             <title>Gym Clothing Manufacturer</title>
+            <meta name="description" content=" Your product selection becomes easy with our gym apparel wholesale range that includes versatile
+                                    fitness wear for men and women. We specialize in designing gym wear with technical
+                                    precision and contemporary aesthetics, making them ideal for intense workouts 
+                                    and casual wear." />
+            <link rel="canonical" href="/services/gym-clothing-manufacturer"></link>
             {/* Hero section */}
             
               <section>
@@ -115,7 +122,8 @@ const Gymclothingmanufacturer = () => {
                                 <p className="textour">
                                     Your product selection becomes easy with our gym apparel wholesale range that includes versatile
                                     fitness wear for men and women. We specialize in designing gym wear with technical
-                                    precision and contemporary aesthetics, making them ideal for intense workouts and casual wear.
+                                    precision and contemporary aesthetics, making them ideal for intense workouts 
+                                    and casual wear.
                                 </p>
                             </div>
                         </Col>
@@ -242,9 +250,9 @@ const Gymclothingmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='Gymwear'>
-                                <h1 className="Gym-Polo">
+                                <h2 className="Gym-Polo">
                                     The Printing Solutions You Need for Your<br /> Gym Wear Brand
-                                </h1>
+                                </h2>
                                 <p className="Gym-desc">
                                     As your trusted activewear manufacturer, we deliver vibrant appearance, precision,
                                     and durability with our printing solutions. Our printing methods include cut-and-sew,
@@ -264,10 +272,10 @@ const Gymclothingmanufacturer = () => {
                     <Row>
                         <Col md={12}>
                             <div className='last-gym'>
-                                <h1 className="last-title">
+                                <h3 className="last-title">
                                     Choose us for advanced performance fabrics, fast turnaround time,
                                     flexible payment methods, bulk order discounts, and low MOQ options to make your brand stronger.
-                                </h1>
+                                </h3>
                                 <button className='Brand-btn'>
                                     Build Your Brand Now
                                 </button>
