@@ -11,10 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Import images from public folder
 const images = [
-  "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions1.jpg",
-  "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions2.jpg",
-  "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions3.jpg",
-  "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions4.jpg"
+    "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions1.jpg",
+    "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions2.jpg",
+    "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions3.jpg",
+    "/Images/tracksuit/Custom-Tracksuits-with-Reliable-Manufacturing-Solutions4.jpg"
 ];
 
 const bgBack = "/Images/Sweatsuit/bgback.jpg";
@@ -77,9 +77,9 @@ const Customtracksuitmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-              <title>  Custom Tracksuit Manufacturers</title>
-            <meta name="description" content="  We offer a full range of tracksuit products that are created using high-quality materials and excellent craftsmanship.
-                                    Our designers sew every piece of thread with precision." />
+            <title>  Custom Tracksuit Manufacturers</title>
+            <meta name="description" content=" As one of the leading sportswear manufacturers, our expertise is in designing and producing performance-driven, comfortable, and eye-catching tracksuits for fitness brands, sports teams, athletes, and private labels. We deliver premium quality,
+             whether you want gym-ready tracksuits or lifestyle clothing for your clothing line. " />
             <link rel="canonical" href="/services/custom-tracksuit-manufacturer"></link>
             {/* Hero Section */}
             <section>
@@ -105,8 +105,8 @@ const Customtracksuitmanufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    We offer a full range of tracksuit products that are created using high-quality materials and excellent craftsmanship.
-                                    Our designers sew every piece of thread with precision.
+                                    As one of the leading <strong className='linkbank'><a href="/">sportswear manufacturers,</a></strong> our expertise is in designing and producing performance-driven, comfortable, and eye-catching tracksuits for fitness brands, sports teams, athletes, and private labels. We deliver premium quality,
+                                    whether you want gym-ready tracksuits or lifestyle clothing for your clothing line.
                                 </p>
                             </div>
                         </Col>
@@ -114,9 +114,8 @@ const Customtracksuitmanufacturer = () => {
                         {/* RIGHT SIDE - CONTENT */}
                         <Col md={6}>
                             <p className="lead">
-                                As one of the leading <strong>sportswear manufacturers,</strong> our expertise is in designing and producing
-                                performance-driven, comfortable, and eye-catching tracksuits for fitness brands, sports teams, athletes,
-                                and private labels. We deliver premium quality, whether you want gym-ready tracksuits or lifestyle clothing for your clothing line.
+                                We offer a full range of tracksuit products that are created using
+                                high-quality materials and excellent craftsmanship. Our designers sew every piece of thread with precision.
                             </p>
                             <button className='Breathable'>Start Your Clothing Line</button>
 
@@ -167,8 +166,8 @@ const Customtracksuitmanufacturer = () => {
                     <Col md={6} className="mt-4 mt-md-0">
                         <h2 className="fw-bold mb-3">Custom Tracksuits with Reliable Manufacturing Solutions</h2>
                         <p className='trusted'>
-                            If you want a tracksuit supplier that offers end-to-end manufacturing solutions, we are the best choice for you. From creating
-                            tech packs and digital mockups to sampling, bulk production, and packaging, we offer everything you crave.
+                            If you want a tracksuit supplier that offers end-to-end manufacturing solutions, we are the best choice for you. From creating tech packs
+                            and digital mockups to sampling, bulk production, and packaging, we offer everything you crave.
                         </p>
 
                         <ul className="list-unstyled mt-3">
@@ -208,8 +207,10 @@ const Customtracksuitmanufacturer = () => {
                                 Customizable Tracksuits: Your Idea Our Customization Skills
                             </h2>
                             <p className="lead mb-4">
-                                As your trusted high-quality tracksuit manufacturer, ensuring that your ideas become reality is our responsibility. We combine flexibility, durability, comfort, fabrics, color creativity, and advanced personalization methods to create your ideal tracksuits. We offer limitless customization options including embroidery, printing, dyeing, washing, cut-and-sew, and more
+                                As your trusted high-quality tracksuit manufacturer, ensuring that your ideas
+                                become reality is our responsibility. We combine flexibility, durability, comfort, fabrics, color creativity, and advanced personalization methods to create your ideal tracksuits. We offer limitless customization options including embroidery, printing, dyeing, washing, cut-and-sew, and more
                                 for you to create the perfect products for your brand.
+
                             </p>
                             <button className='Breathable'>Learn More</button>
                         </Col>
@@ -225,9 +226,9 @@ const Customtracksuitmanufacturer = () => {
                             <div className='sweatsuit'>
                                 <h2 className="sweat-title">Choose Us to Avail the Best Services</h2>
                                 <p className="sweat-desc">
-                                    We offer the best services to build trust that lasts forever. Considering the needs of
-                                    clothing brands, we offer a low MOQ of 35 to 50 pieces, fast turnaround time,
-                                    market-competitive prices, and doorstep delivery. Partner with us to start your brand with high possibilities of success.
+                                    We offer the best services to build trust that lasts forever. Considering the needs of clothing brands,
+                                     we offer a low MOQ of 35 to 50 pieces, fast turnaround time, market-competitive prices, 
+                                    and doorstep delivery. Partner with us to start your brand with high possibilities of success. 
                                 </p>
                             </div>
                         </Col>

@@ -78,9 +78,8 @@ const Baseballclothingmanufacturer = () => {
     return (
         <div className="textile-services-page">
               <title>Baseball Jersey Manufacturers</title>
-      <meta name="description"  content="Start your top-tier baseball apparel brand with the leading <strong>sports apparel manufacturers</strong> in the USA. We are the professional
-                                    suppliers of custom baseball uniform team apparel engineered for performance, 
-                                    comfort, and durability." />  
+      <meta name="description"  content="Start your top-tier baseball apparel brand with the leading sports apparel manufacturers in the USA. We are the professional suppliers
+       of custom baseball uniform team apparel engineered for performance, comfort, and durability. " />  
   <link rel="canonical" href="/services/baseball-clothing-manufacturer"></link>
             {/* Hero Section */}
             <section>
@@ -106,9 +105,8 @@ const Baseballclothingmanufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    Start your top-tier baseball apparel brand with the leading <strong>sports apparel manufacturers</strong> in the USA. We are the professional
-                                    suppliers of custom baseball uniform team apparel engineered for performance, 
-                                    comfort, and durability.
+                                 Start your top-tier baseball apparel brand with the leading <strong className='linkbank'><a href="/">sports apparel manufacturers</a></strong> in the USA. We are the professional suppliers of
+                                  custom baseball uniform team apparel engineered for performance, comfort, and durability. 
                                 </p>
                             </div>
                         </Col>
@@ -116,8 +114,9 @@ const Baseballclothingmanufacturer = () => {
                         {/* RIGHT SIDE - CONTENT */}
                         <Col md={6}>
                             <p className="lead">
-                                Our custom baseball jerseys, shirts, jackets, and other products are ideal for your brand or team. We customize every product precisely according to the requirements
-                                of our customers. We deliver bulk baseball jerseys tailored for unmatched value and performance.
+                               Our custom baseball jerseys, shirts, jackets, and other products are ideal for your brand or team.
+                                We customize every product precisely according to the 
+                               requirements of our customers. We deliver bulk baseball jerseys tailored for unmatched value and performance.
                             </p>
                             <button className='Breathable'>Build Your Product Line</button>
 
@@ -142,8 +141,10 @@ const Baseballclothingmanufacturer = () => {
                 <Container>
                     <h2 className="Customhunting">Premium Private Labeling Options</h2>
                     <p className="outdoor">
-                        We understand that you want your brand to stand out among the top competitors in the market. Therefore, we offer the best private labeling options for your products to reflect and enhance your brand's identity. From custom labels
-                        and tags to precise sizing and placement, we make your products market-ready with a promising reputation.
+                  We understand that you want your brand to stand out among the top competitors in the market. 
+                  Therefore, we offer the best private labeling options for your products to reflect and enhance your brand’s
+                   identity. From custom labels
+                   and tags to precise sizing and placement, we make your products market-ready with a promising reputation.
                     </p>
                     <button className='Breathable'>Inquire Now</button>
                 </Container>
@@ -169,8 +170,9 @@ const Baseballclothingmanufacturer = () => {
                     <Col md={6} className="mt-4 mt-md-0">
                         <h2 className="fw-bold mb-3">Unlimited Customization Options</h2>
                         <p className='trusted'>
-                            We manufacture and customize baseball clothing using our advanced customization methods that enrich products with outstanding features. From colors and fabric selection to particular
-                            designs and prints, we allow you to personalize every piece according to your design ideas.
+                            We manufacture and customize baseball clothing using our advanced customization methods that enrich products
+                             with outstanding features. From colors and fabric selection 
+                            to particular designs and prints, we allow you to personalize every piece according to your design ideas.
                         </p>
 
                         <ul className="list-unstyled mt-3">
@@ -208,8 +210,8 @@ const Baseballclothingmanufacturer = () => {
                         <Col lg={8} className="mx-auto">
                             <h2 className="display-6 fw-bold mb-3">Top-of-the-Line Printing Options</h2>
                             <p className="lead mb-4">
-                                We bring your ideas to life with unmatched clarity using our printing options. Our printing options include heat transfer printing that adds details and sharpness to products, sublimation printing that creates durable designs, vinyl printing that develops outstanding graphics, and other printing techniques like DTF (direct to film), DTG (direct to garment). Our advanced printing
-                                techniques ensure top-tier printing services to make your products market-ready with a unique identity.
+                          We bring your ideas to life with unmatched clarity using our printing options. Our printing options include heat transfer printing that adds details and sharpness to products, sublimation printing that creates durable designs, vinyl printing that develops outstanding graphics, and other printing techniques like DTF (direct to film), DTG (direct to garment), Our advanced printing 
+                          techniques ensure top-tier printing services to make your products market-ready with a unique identity.  
                             </p>
                             <button className='Breathable'>Learn More</button>
                         </Col>
@@ -225,8 +227,8 @@ const Baseballclothingmanufacturer = () => {
                             <div className='sweatsuit'>
                                 <h2 className="sweat-title">Choose the Most Productive Baseball Clothing Manufacturer.</h2>
                                 <p className="sweat-desc">
-                                    Our customer services make us one of the best baseball jersey manufacturers. We offer the fastest turnaround time. Our low MOQ of 35 to 50 pieces makes it easier for both small- and large-scale baseball brands. Our quality control ensures that every product
-                                    meets the global quality standards. We offer doorstep delivery to help you start your brand without any worries.
+                              Our customer services make us one of the best baseball jersey manufacturers. We offer the fastest turnaround time. Our low MOQ of 35 to 50 pieces makes it easier for both small- and large-scale baseball brands. Our quality control ensures that every product meets
+                               the global quality standards. We offer doorstep delivery to help you start your brand without any worries. 
                                 </p>
                             </div>
                         </Col>

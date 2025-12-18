@@ -78,9 +78,8 @@ const Customhoodiemanufacturer = () => {
     return (
         <div className="textile-services-page">
             <title>Custom Hoodie Manufacturer in the USA</title>
-            <meta name="description" content=" We help you create a unique product line with the help of our products and customization options.
-                                    We offer a vast range of hoodies and sweatshirts that can make your brand 
-                                    a market giant." />
+            <meta name="description" content=" As your reliable custom hoodie manufacturer in the USA, we deliver the fully customized hoodies to meet your specific needs. From precise stitching to premium fabrics,
+             we bring your designs to life, making hoodies with unmatched craftsmanship. " />
             <link rel="canonical" href="/services/custom-hoodie-manufacturer"></link>
             {/* Hero Section */}
             <section>
@@ -106,9 +105,8 @@ const Customhoodiemanufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    We help you create a unique product line with the help of our products and customization options.
-                                    We offer a vast range of hoodies and sweatshirts that can make your brand
-                                    a market giant.
+                                    As your reliable custom hoodie manufacturer in the USA, we deliver the fully customized hoodies to meet your specific needs. From precise
+                                    stitching to premium fabrics, we bring your designs to life, making hoodies with unmatched craftsmanship.
                                 </p>
                             </div>
                         </Col>
@@ -116,8 +114,8 @@ const Customhoodiemanufacturer = () => {
                         {/* RIGHT SIDE - CONTENT */}
                         <Col md={6}>
                             <p className="lead">
-                                As your reliable custom hoodie manufacturer in the USA, we deliver the fully customized hoodies to meet your specific needs. From precise
-                                stitching to premium fabrics, we bring your designs to life, making hoodies with unmatched craftsmanship.
+                                We help you create a unique product line with the help of our products and customization options.
+                                We offer a vast range of hoodies and sweatshirts that can make your brand a market giant.
                             </p>
                             <button className='Breathable'>Create Your Own Products</button>
 
@@ -143,9 +141,8 @@ const Customhoodiemanufacturer = () => {
                 <Container>
                     <h2 className="Customhunting">Cut and Sew Hoodie Manufacturing</h2>
                     <p className="outdoor">
-                        We are the expert <strong>sports clothing manufacturer</strong> offering fine craftsmanship, precise cut and sew, and bulk hoodie production for your clothing line. Our skilled workforce incorporates premium fabrics
-                        like <strong>100% cotton, fleece, leather, wool, polyester, spandex,</strong> and more to craft stylish and
-                        durable hoodies and sweatshirts that can withstand multiple washes, harsh weather, and regular use.
+                      We are the expert <strong className='linkbank'><a href="/">sports clothing manufacturer</a></strong> offering fine craftsmanship, precise cut and sew, and bulk hoodie production for your clothing line. Our skilled workforce incorporates premium fabrics like 100% cotton, fleece, leather, wool, polyester, spandex, and more to craft 
+                      stylish and durable hoodies and sweatshirts that can withstand multiple washes, harsh weather, and regular use.
                     </p>
                     <button className='Breathable'>Inquire Now</button>
                 </Container>
@@ -171,8 +168,8 @@ const Customhoodiemanufacturer = () => {
                     <Col md={6} className="mt-4 mt-md-0">
                         <h2 className="fw-bold mb-3">Premium Customization and Printing Options</h2>
                         <p className='trusted'>
-                            Our customization capabilities give your hoodies a premium
-                            edge by unlocking endless possibilities for unmatched branding.
+                           Our customization capabilities give your hoodies a premium edge by 
+                           unlocking endless possibilities for unmatched branding.
                         </p>
 
                         <ul className="list-unstyled mt-3">
@@ -214,8 +211,8 @@ const Customhoodiemanufacturer = () => {
                         <Col lg={8} className="mx-auto">
                             <h2 className="display-6 fw-bold mb-3">Hoodie & Sweatshirt Manufacturer: All Production Solutions</h2>
                             <p className="lead mb-4">
-                                We offer complete production solutions, including a low MOQ of 35 to 50 pieces, tech packs and digital mockups, sample manufacturing, quick turnaround time, bulk production, personalization, private labeling,
-                                and doorstep delivery. Our services can help you start your brand faster and better.
+                               We offer complete production solutions, including a low MOQ of 35 to 50 pieces, tech packs and digital mockups, sample manufacturing, quick turnaround time, bulk production, personalization, 
+                               private labeling, and doorstep delivery. Our services can help you start your brand faster and better. 
                             </p>
                             <button className='Breathable'>Learn More</button>
                         </Col>
@@ -231,8 +228,8 @@ const Customhoodiemanufacturer = () => {
                             <div className='sweatsuit'>
                                 <h2 className="sweat-title">Private label Hoodies for Your Brand</h2>
                                 <p className="sweat-desc">
-                                    You can start your unique hoodie line with the help of our private labeling services. From OEM and logo placements to custom labels and tags, we deliver informative
-                                    and fully personalized private labels to give your brand an identity that prevails in the competitive market.
+                                 You can start your unique hoodie line with the help of our private labeling services. From OEM and logo placements to custom labels and tags, we deliver informative and
+                                  fully personalized private labels to give your brand an identity that prevails in the competitive market. 
                                 </p>
                             </div>
                         </Col>

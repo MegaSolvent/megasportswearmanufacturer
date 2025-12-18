@@ -170,7 +170,7 @@ const Tennisclothingmanufacturer = () => {
               Custom Tennis Apparel Crafted with Popular Materials
             </h3>
             <p className='trusted'>
-              Our <strong>custom athletic clothing</strong> includes high-quality tennis apparel crafted using the performance fabrics.
+              Our <strong className='linkbank'><a href="/services/gym-clothing-manufacturer">custom athletic clothing</a></strong> includes high-quality tennis apparel crafted using the performance fabrics.
               We build custom tennis dresses considering the needs of athletes and tennis clothing lines. Each fabric gives products unique
               abilities like moisture absorbency, mobility, and resistance that help players perform well on the court.
             </p>

@@ -120,7 +120,7 @@ const Golfapparelmanufacturer = () => {
 
                         <Col md={6}>
                             <p className="lead">
-                                Sportswear manufacturing solutions for premium quality golf clothing to cater to global brands, businesses,
+                                <strong className='linkbank'><a href="/">Sportswear manufacturing solutions</a></strong> for premium quality golf clothing to cater to global brands, businesses,
                                 players, and golf clubs.
                                 We produce high-performance, custom golf products using modern materials and efficient production methods.
                             </p>
@@ -222,7 +222,8 @@ const Golfapparelmanufacturer = () => {
                             </h2>
                             <p className="lead mb-4">
                                 Start and expand your clothing line with our private labeling services. We offer tags and labels that showcase your brand's vision. Our customized logos, colors, materials, and trims make your products market-ready. We allow you to fully
-                                customize any labels from hang tags to heat-printed tags and use them to form an identity in the industry.
+                                customize any labels from hang tags to heat-printed tags and use them to 
+                                form an identity in the industry.
                             </p>
                             <button className='Breathable'>Become a Brand with Us</button>
                         </Col>
@@ -239,7 +240,9 @@ const Golfapparelmanufacturer = () => {
                                 <h2 className="Golf-Polo">Golf Polo Shirt Manufacturer with Promising <br />Customer Services.
                                 </h2>
                                 <p className="Golf-desc">
-                                    We are committed to quality and sustainability. We provide our customers with the best services possible. From sampling and prototyping to quality inspection and dispatching the order, we take care of every little detail. Our low MOQ of 35 to 50 pieces per color and design allows you to start a brand with a minimum risk. Moreover,
+                                    We are committed to quality and sustainability. We provide our customers with the best services possible.
+                                     From sampling and prototyping to quality inspection and dispatching the order, we take care of every little 
+                                     detail. Our low MOQ of 35 to 50 pieces per color and design allows you to start a brand with a minimum risk. Moreover, 
                                     our bulk order discount and flexible payment methods make your journey to becoming a market giant easier.
                                 </p>
                             </div>

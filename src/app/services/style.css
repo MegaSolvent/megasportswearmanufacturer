@@ -531,7 +531,7 @@ p.yoga-desc {
         line-height: 28px !important;
         font-weight: 700 !important;
     }
-      h1.Tenis-title {
+      h2.Tenis-title {
         font-size: 22px !important;
         line-height: 28px !important;
         font-weight: 700 !important;
@@ -722,7 +722,7 @@ h2.Gym-Polo {
     width: 100%;
     text-align: center;
 }
-h1.Tenis-title {
+h2.Tenis-title {
     color: white;
     text-transform: uppercase;
     font-size: 32px;
@@ -731,6 +731,9 @@ h1.Tenis-title {
     line-height: 50px;
     width: 100%;
     text-align: center;
+}
+.fishinguse {
+    margin-top: -2rem;
 }
 p.Golf-desc {
     font-size: 18px;

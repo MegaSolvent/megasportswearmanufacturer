@@ -11,10 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Import images from public folder
 const images = [
-  "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options1.jpg",
-  "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options2.jpg",
-  "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options3.jpg",
-  "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options4.jpg"
+    "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options1.jpg",
+    "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options2.jpg",
+    "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options3.jpg",
+    "/Images/fishing/Best-Fishing-Apparel-Factory-Offers-Advanced-Printing-Options4.jpg"
 ];
 
 const bgBack = "/Images/Sweatsuit/bgback.jpg";
@@ -78,9 +78,8 @@ const Fishingshirtmanufacturer = () => {
     return (
         <div className="textile-services-page">
             <title>Fishing Apparel Manufacturers</title>
-            <meta name="description" content="   We are a trusted sports apparel manufacturer that creates performance-driven custom fishing shirts tailored specifically for swimwear
-                                    brands, professional anglers, retailers, and small- and large-scale private 
-                                    label clothing lines." />
+            <meta name="description" content=" We are a trusted sports apparel manufacturer that creates performance-driven custom fishing shirts tailored specifically for swimwear brands, professional anglers, 
+            retailers, and small- and large-scale private label clothing lines." />
             <link rel="canonical" href="/services/fishing-shirt-manufacturer"></link>
             {/* Hero Section */}
             <section>
@@ -106,9 +105,9 @@ const Fishingshirtmanufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    We are a trusted sports apparel manufacturer that creates performance-driven custom fishing shirts tailored specifically for swimwear
-                                    brands, professional anglers, retailers, and small- and large-scale private 
-                                    label clothing lines.
+                                    We are a trusted <strong className='linkbank'><a href='/'>sports apparel manufacturer</a></strong> that creates performance-driven custom
+                                     fishing shirts tailored specifically for swimwear brands,
+                                    professional anglers, retailers, and small- and large-scale private label clothing lines.
                                 </p>
                             </div>
                         </Col>
@@ -116,8 +115,8 @@ const Fishingshirtmanufacturer = () => {
                         {/* RIGHT SIDE - CONTENT */}
                         <Col md={6}>
                             <p className="lead">
-                                As your reliable fishing shirt supplier, it is our responsibility to provide you the best quality fishing shirts tailored according to your needs. With the help of our advanced materials, we feature the custom fishing shirts with moisture-wicking,
-                                UV protection, breathable waders, water-resistant coatings, flexibility, and durability.
+                                As your reliable fishing shirt supplier, it is our responsibility to provide you the best quality fishing shirts tailored according to your needs. With the help of our advanced materials, we feature the custom fishing shirts
+                                with moisture-wicking, UV protection, breathable waders, water-resistant coatings, flexibility, and durability.
                             </p>
                             <button className='Breathable'>Get Started Now</button>
 
@@ -140,8 +139,8 @@ const Fishingshirtmanufacturer = () => {
                 <Container>
                     <h2 className="Customhunting">Manufacturing Capabilities & Customization Options</h2>
                     <p className="outdoor">
-                        Our custom-made fishing shirts are tailored to provide you an edge in the competitive industry.
-                        From fabric selection and product designing to bulk production and quality assurance, we allow you full control.
+                       Our custom-made fishing shirts are tailored to provide you an edge in the competitive industry. From fabric selection and 
+                       product designing to bulk production and quality assurance, we allow you full control. 
                     </p>
                     <button className='Breathable'>Start Your Custom Order</button>
                 </Container>
@@ -167,8 +166,8 @@ const Fishingshirtmanufacturer = () => {
                     <Col md={6} className="mt-4 mt-md-0">
                         <h2 className="fw-bold mb-3">Best Fishing Apparel Factory Offers Advanced Printing Options</h2>
                         <p className='trusted'>
-                            We aspire to make your brand stand out in the market. Our printing options
-                            are viable in terms of giving your fishing shirts a unique and aesthetic appearance.
+                 We aspire to make your brand stand out in the market.
+                  Our printing options are viable in terms of giving your fishing shirts a unique and aesthetic appearance. 
                         </p>
 
                         <ul className="list-unstyled mt-3">
@@ -202,8 +201,8 @@ const Fishingshirtmanufacturer = () => {
                         <Col lg={8} className="mx-auto">
                             <h2 className="display-6 fw-bold mb-3">Private Labeling Solutions for Your Brand</h2>
                             <p className="lead mb-4">
-                                Your brand requires custom shirts for fishing that resonate with your brand's identity. Our private labeling solutions can help you do that.
-                                With customized logos, designs, and tags, your products become unique and ready to enter the market.
+                               Your brand requires custom shirts for fishing that resonate with your brand’s identity. Our private labeling solutions can help you do that.
+                                With customized logos, designs, and tags, your products become unique and ready to enter the market. 
                             </p>
                             <button className='Breathable'>Start Your Brand with Us</button>
                         </Col>
@@ -219,8 +218,8 @@ const Fishingshirtmanufacturer = () => {
                             <div className='sweatsuit'>
                                 <h2 className="sweat-title">Combine Innovation with Performance</h2>
                                 <p className="sweat-desc">
-                                    We use high-performance materials to protect the wearer from harsh weather conditions. The added breathability and enhanced durability make the fishing shirts withstand tough usage.
-                                    Our quality control measures ensure the custom fishing shirts can inspire your customers to perform well.
+                                We use high-performance materials to protect the wearer from harsh weather conditions. The added breathability and enhanced durability make the fishing shirts withstand tough usage. 
+                                Our quality control measures ensure the custom fishing shirts can inspire your customers to perform well. 
                                 </p>
                             </div>
                         </Col>
@@ -233,11 +232,11 @@ const Fishingshirtmanufacturer = () => {
                 <Container>
                     <Row>
                         <Col md={12}>
-                            <div className='whychose'>
+                            <div className='fishinguse'>
                                 <h3 className="last-title">Why Choose Us?</h3>
                                 <p className="success">
-                                    We are here to help you become a successful brand with our products and services. Our low MOQ of 35 to 50 pieces per color and design allows you to start either small or big. Our bulk order discounts help you start a wider product line.
-                                    We offer a fast turnaround time and doorstep delivery to strengthen our professional relationship.
+                               We are here to help you become a successful brand with our products and services. Our low MOQ of 35 to 50 pieces per color and design allows you to start either small or big. Our bulk order discounts help you start a wider product line.
+                                We offer a fast turnaround time and doorstep delivery to strengthen our professional relationship. 
                                 </p>
                                 <button className='Brand-btn'>Start Building Your Brand</button>
                             </div>

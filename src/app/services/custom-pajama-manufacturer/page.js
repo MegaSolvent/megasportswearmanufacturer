@@ -78,8 +78,8 @@ const Custompajamamanufacturer = () => {
     return (
         <div className="textile-services-page">
             <title>Custom Pajama Manufacturers</title>
-            <meta name="description" content="As a reliable pajama supplier, our aim is to provide brands with unmatched comfort, lightweight sleepwear, moisture control, and an amazing lounging experience in the form of our pajamas. With our all-season collection and customization methods, you can get a diverse pajama selection for various activities,
-                                    including fitness, yoga, relaxing, and lounging." />
+            <meta name="description" content="We are your trusted custom pajama manufacturers, offering a perfect blend of comfort and style. We manufacture a vast variety of pajamas using eco-friendly and sustainable materials for fashion labels,
+             boutiques, e-commerce stores, clothing lines and brands that need custom loungewear. " />
             <link rel="canonical" href="/services/custom-pajama-manufacturer"></link>
             {/* Hero Section */}
             <section>
@@ -105,8 +105,8 @@ const Custompajamamanufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    As a reliable pajama supplier, our aim is to provide brands with unmatched comfort, lightweight sleepwear, moisture control, and an amazing lounging experience in the form of our pajamas. With our all-season collection and customization methods, you can get a diverse pajama selection for various activities,
-                                    including fitness, yoga, relaxing, and lounging.
+                                    We are your trusted custom pajama manufacturers, offering a perfect blend of comfort and style. We manufacture a vast variety of pajamas using eco-friendly and sustainable materials for fashion labels,
+                                    boutiques, e-commerce stores, clothing lines and brands that need custom loungewear.
                                 </p>
                             </div>
                         </Col>
@@ -114,8 +114,8 @@ const Custompajamamanufacturer = () => {
                         {/* RIGHT SIDE - CONTENT */}
                         <Col md={6}>
                             <p className="lead">
-                                We are your trusted custom pajama manufacturers, offering a perfect blend of comfort and style. We manufacture a vast variety of pajamas using eco-friendly and sustainable materials for fashion labels,
-                                boutiques, e-commerce stores, clothing lines and brands that need <strong>custom loungewear.</strong>
+                                As a reliable pajama supplier, our aim is to provide brands with unmatched comfort, lightweight sleepwear, moisture control, and an amazing lounging experience in the form of our pajamas. With our all-season collection and customization methods,
+                                you can get a diverse pajama selection for various activities, including fitness, yoga, relaxing, and lounging.
                             </p>
                             <button className='Breathable'>Start Your Clothing Brand</button>
 
@@ -141,7 +141,7 @@ const Custompajamamanufacturer = () => {
                     <h2 className="Customhunting">Our Pajama Manufacturing Services</h2>
                     <p className="outdoor">
                         We are the right sleepwear manufacturer for your loungewear brand. We offer a premium fabric selection with 100% cotton, satin, bamboo, modal, and blended materials. Our tailored fit options include various sizes for men, women, and kids, with diverse
-                        designs and elastic waistbands. We deliver a full range of production services for your brand's success.
+                        designs and elastic waistbands. We deliver a full range of production services for your brand’s success.
                     </p>
                     <button className='Breathable'>Launch Your Brand</button>
                 </Container>
@@ -167,8 +167,8 @@ const Custompajamamanufacturer = () => {
                     <Col md={6} className="mt-4 mt-md-0">
                         <h2 className="fw-bold mb-3">Private Label Pajamas and OEM Solutions</h2>
                         <p className='trusted'>
-                            Our private label pajamas service allows you complete control over labeling and tags to make your brand unique in the competitive apparel industry.
-                            From concept to delivery, we ensure your products stand out with a unique identity.
+                            Our private label pajamas service allows you complete control over labeling and tags to make your brand unique in the
+                            competitive apparel industry. From concept to delivery, we ensure your products stand out with a unique identity.
                         </p>
 
                         <ul className="list-unstyled mt-3">
@@ -202,8 +202,8 @@ const Custompajamamanufacturer = () => {
                         <Col lg={8} className="mx-auto">
                             <h2 className="display-6 fw-bold mb-3">Limitless Customization Options</h2>
                             <p className="lead mb-4">
-                                As your reliable <strong>sportswear clothing manufacturer</strong>, our company understands that style, comfort and performance are the key components for your imminent success. Therefore, we create your products using our most efficient and advanced customization options,
-                                including printing options, embroidery, fabric dyeing, washing, and precise cut-and-sew.
+                                As your reliable <strong className='linkbank'><a href="/">sportswear clothing manufacturer</a></strong>, our company understands that style, comfort and performance are the key components for your imminent success. Therefore, we create your products using our most efficient and advanced
+                                customization options, including printing options, embroidery, fabric dyeing, washing, and precise cut-and-sew.
                             </p>
                             <button className='Breathable'>Launch Your Brand Now</button>
                         </Col>
@@ -219,8 +219,8 @@ const Custompajamamanufacturer = () => {
                             <div className='sweatsuit'>
                                 <h2 className="sweat-title">Advanced Printing Techniques for Your Clothing Line</h2>
                                 <p className="sweat-desc">
-                                    We specialize in making your pajamas one of a kind using our advanced printing methods. Our screen printing is ideal for bulk orders and bold logos. We use sublimation printing for all-over prints, outstanding patterns, and vibrant prints. Our DTG (direct to garment) printing adds details and creates a variety of colors on small batches. We offer
-                                    modern printing with durable designs on different fabrics using our efficient DTF (direct to fabric) printing.
+                                    We specialize in making your pajamas one of a kind using our advanced printing methods. Our screen printing is ideal for bulk orders and bold logos. We use sublimation printing for all-over prints, outstanding patterns, and vibrant prints. Our DTG (direct to garment) printing adds details and creates a variety of colors on small batches. We offer modern
+                                    printing with durable designs on different fabrics using our efficient DTF (direct to fabric) printing.
                                 </p>
                             </div>
                         </Col>
@@ -235,8 +235,8 @@ const Custompajamamanufacturer = () => {
                         <Col lg={8} className="mx-auto">
                             <h2 className="display-6 fw-bold mb-3">Our Customer-Oriented Manufacturing Solutions</h2>
                             <p className="lead mb-4">
-                                As your reliable <strong>sportswear clothing manufacturer</strong>, our company understands that style, comfort and performance are the key components for your imminent success. Therefore, we create your products using our most efficient and advanced customization options,
-                                including printing options, embroidery, fabric dyeing, washing, and precise cut-and-sew.
+                                We understand your brand needs in terms of production, quantity, and delivery. Hence, we offer sample manufacturing for you to decide on the products. A low MOQ of 35 to 50 pieces to help you start small or big, a fast turnaround time for you to begin as soon as you want,
+                                limitless bulk products to help you become a market giant, and doorstep delivery to save you from hassles.
                             </p>
                             <button className='Breathable'>Launch Your Brand Now</button>
                         </Col>

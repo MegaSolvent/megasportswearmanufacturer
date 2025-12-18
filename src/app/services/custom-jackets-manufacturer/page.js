@@ -70,10 +70,10 @@ const Customjacketsmanufacturer = () => {
   return (
     <div className="textile-services-page">
       <title> Custom Jackets Manufacture</title>
-      <meta name="description" content="As your trusted custom jackets manufacturer, we strive to give
-                  the most iconic types of jackets and coats that can dominate
-                  the market. We use premium-quality fabrics and modern
-                  production methods to create the jackets and coats." />
+      <meta name="description" content="We are your go-to custom jacket supplier for the market-ready custom jackets
+       and coats. We create jackets and coats according to purposes and your specific requirements. We manufacture
+        high-quality outerwear for private labels, brands, wholesalers, and fashion labels. Our coats and jackets are also ideal
+       for workwear and streetwear since they feature durability, aesthetics, comfort, and performance. " />
       <link rel="canonical" href="/services/custom-jackets-manufacturer"></link>
       {/* Banner Section */}
       <section>
@@ -106,10 +106,10 @@ const Customjacketsmanufacturer = () => {
               <div className="uppersection">
                 <FaTshirt />
                 <p className="textour">
-                  As your trusted custom jackets manufacturer, we strive to give
-                  the most iconic types of jackets and coats that can dominate
-                  the market. We use premium-quality fabrics and modern
-                  production methods to create the jackets and coats.
+                 As your trusted custom 
+                 jackets manufacturer, we strive to give the most iconic types of 
+                 jackets and coats that can dominate the market. We use premium-quality fabrics 
+                 and modern production methods to create the jackets and coats.
                 </p>
               </div>
             </Col>
@@ -117,13 +117,12 @@ const Customjacketsmanufacturer = () => {
             {/* RIGHT SIDE CONTENT */}
             <Col md={6}>
               <p className="lead">
-                We are your go-to custom jacket supplier for the market-ready
-                custom jackets and coats. We create jackets and coats according
-                to purposes and your specific requirements. We manufacture
-                high-quality outerwear for private labels, brands, wholesalers,
-                and fashion labels. Our coats and jackets are also ideal for
-                workwear and streetwear since they feature durability,
-                aesthetics, comfort, and performance.
+           We are your go-to custom jacket supplier for the market-ready custom jackets and coats.
+            We create jackets and coats according to purposes and your specific requirements.
+             We manufacture high-quality outerwear for private labels, brands, wholesalers, and fashion labels.
+              Our coats and jackets are 
+           also ideal for workwear and streetwear since they feature durability,
+            <strong className="linkbank"><a href="/services/gym-clothing-manufacturer">aesthetics</a></strong>, comfort, and performance. 
               </p>
               <button className="Breathable">Create Your Own Products</button>
 
@@ -154,10 +153,9 @@ const Customjacketsmanufacturer = () => {
             Your Trustworthy Private Label Jacket Manufacturers
           </h2>
           <p className="outdoor">
-            We professionally craft jackets using our private labeling options.
-            From design ideas to finished products, we offer a full range of
-            services. We offer customized logo placement, custom labels, tags,
-            exclusive prints, and your preferred fabrics under one roof.
+           We professionally craft jackets using our private labeling options.
+            From design ideas to finished products, we offer a full range of services. We offer customized
+            logo placement, custom labels, tags, exclusive prints, and your preferred fabrics under one roof.
           </p>
           <button className="Breathable">Start Your Clothing Brand</button>
         </Container>
@@ -190,8 +188,8 @@ const Customjacketsmanufacturer = () => {
               Flexible Customization and Customer Services
             </h2>
             <p className="trusted">
-              Our customer services and limitless customization methods help your brand prosper
-              in the competitive apparel market.
+           Our customer services and limitless customization methods
+            help your brand prosper in the competitive apparel market. 
             </p>
 
             <ul className="list-unstyled mt-3">
@@ -226,11 +224,8 @@ const Customjacketsmanufacturer = () => {
                 Top-of-the-Line Printing Methods for Unique Products
               </h2>
               <p className="lead mb-4">
-                As your reliable <strong>clothing manufacturer,</strong> we give
-                jackets and coats a unique appearance using advanced printing
-                methods that help in embedding marvelous designs, logos, and
-                prints. We incorporate heat printing, sublimation, DTF, DTG,
-                vinyl printing, and many others.
+             As your reliable <strong className="linkbank"><a href="/">clothing manufacturer,</a></strong> we give jackets and coats a unique appearance using advanced printing methods that help in embedding marvelous designs, logos, and prints. We incorporate heat printing, sublimation printing, DTF 
+             (direct to film), DTG (direct to garment), vinyl printing, and many others, according to the products’ requirements.
               </p>
               <button className="Breathable">Launch Your Brand Now</button>
             </Col>
@@ -249,10 +244,12 @@ const Customjacketsmanufacturer = () => {
               <div className="sweatsuit">
                 <h2 className="sweat-title">End-to-End Production Solutions</h2>
                 <p className="sweat-desc">
-                  We believe in providing the best production solutions to keep our
-                  customers satisfied. We offer a fast turnaround time to deliver
-                  products on time. We make tech packs, mockups, and samples, giving a
-                  clear idea of final output. Our doorstep delivery saves time and effort.
+                 We believe in providing the best production solutions to keep our customers satisfied.
+                  We offer a fast turnaround time to deliver the final products within the promised time.
+                   We make tech packs and mockups to give a visual representation of the products.
+                    Our sample manufacturing gives you an idea of the final products.
+                  We offer limitless bulk production for you to start big. Our doorstep delivery 
+                  saves you time and unwanted hassles.
                 </p>
               </div>
             </Col>

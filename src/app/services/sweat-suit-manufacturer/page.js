@@ -83,12 +83,9 @@ const SweatsuitManufacturer = () => {
 
     return (
         <div className="textile-services-page">
-                <title>Sweatsuit Apparel Manufacturer</title>
-            <meta name="description" content=" Our reputation extends beyond just jogging suit manufacturers; we are the producers of custom
-                                    sweatsuits designed to improve your style and performance. We craft your sweatsuits using modern fabrics like
-                                    polyester blends, terry cloth, fleece and other advanced materials to ensure optimal comfort.
-                                    Each piece is given a unique color palette and design to reflect your brand’s 
-                                    identity." />
+                <title> Custom Sweatsuits Manufacturer</title>
+            <meta name="description" content="Our specialty in crafting the best sweatsuits makes us a reliable sweatsuit and tracksuit manufacturer. We cater to private labels, sports clubs, and brands that want premium-
+             sweatsuits. We have got you covered whether you need performance products or loungewear in the best designs. " />
             <link rel="canonical" href="/services/sweat-suit-manufacturer"></link>
             {/* Hero banner */}
            
@@ -98,7 +95,7 @@ const SweatsuitManufacturer = () => {
                     <div style={overlayStyle}></div>
                     <div style={contentStyle}>
                         <h1 className="tenistitle" >
-                            Sweatsuit Apparel Manufacturer
+                           Custom Sweatsuits Manufacturer
                         </h1>
                     </div>
                 </div>
@@ -119,18 +116,18 @@ const SweatsuitManufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    Our reputation extends beyond just jogging suit manufacturers; we are the producers of custom
-                                    sweatsuits designed to improve your style and performance. We craft your sweatsuits using modern fabrics like
-                                    polyester blends, terry cloth, fleece and other advanced materials to ensure optimal comfort.
-                                    Each piece is given a unique color palette and design to reflect your brand’s 
-                                    identity.
+
+                                Our reputation extends beyond just jogging suit manufacturers; we are the producers of custom
+                                 sweatsuits designed to improve your style and performance. We craft your sweatsuits using modern fabrics
+                                  like polyester blends, terry cloth, fleece and other advanced materials to ensure optimal comfort. 
+                                Each piece is given a unique color palette and design to reflect your brand’s identity. 
                                 </p>
                             </div>
                         </Col>
 
                         <Col md={6}>
                             <p className="lead">
-                                Our specialty in crafting the best sweatsuits makes us a reliable sweatsuit and tracksuit manufacturer.
+                                Our specialty in crafting the best sweatsuits makes us a reliable sweatsuit and <strong className='linkbank'><a href="/">tracksuit manufacturer</a></strong>.
                                 We cater to private labels, sports clubs, and brands that want premium-quality sweatsuits.
                                 We have got you covered whether you need performance products or loungewear in the best designs.
                             </p>
@@ -168,7 +165,9 @@ const SweatsuitManufacturer = () => {
                         Private Labeling Solutions
                     </h2>
                     <p className="outdoor">
-                        We are more than just a wholesale sweatsuits supplier. We are the manufacturers of custom sports clothing with vast private labeling options. Whether you want a personalized logo printed on the
+                        We are more than just a wholesale sweatsuits supplier. We are the manufacturers of
+                         <strong className='linkbank'><a href="/">custom sports clothing</a></strong> with vast private labeling options. Whether you want a personalized
+                          logo printed on the
                         sweatsuits or tags and labels customized according to your brand’s requirements, we have everything you want.
                     </p>
                     <button className='Breathable'>Build Your Own Brand</button>

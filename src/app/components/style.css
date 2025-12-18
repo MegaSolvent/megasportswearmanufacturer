@@ -948,6 +948,9 @@ button.cprint-button {
     justify-content: center;
     flex-shrink: 0;
 }
+strong.linkbank a {
+    text-decoration: none;
+}
 .contact-icone-wrapper:hover 
  {
     width: 60px;

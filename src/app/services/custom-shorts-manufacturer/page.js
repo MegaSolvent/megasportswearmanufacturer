@@ -68,10 +68,8 @@ const Customshortsmanufacturer = () => {
   return (
     <div className="textile-services-page">
        <title>  Custom Shorts Manufacturer</title>
-            <meta name="description" content="   We are your go-to custom shorts manufacturers for high-quality,
-                  comfortable and durable shorts. We help your brand begin its journey
-                  to success with <strong>custom sports apparel</strong> and many
-                  customization options." />
+            <meta name="description" content=" We are your go-to custom shorts manufacturers for high-quality, comfortable and durable shorts. We help your brand 
+            begin its journey to success with the custom sports apparel and many  customization options. " />
             <link rel="canonical" href="/services/custom-shorts-manufacturer"></link>
       {/* Banner */}
 
@@ -103,10 +101,9 @@ const Customshortsmanufacturer = () => {
               <div className="uppersection">
                 <FaTshirt />
                 <p className="textour">
-                  We are your go-to custom shorts manufacturers for high-quality,
-                  comfortable and durable shorts. We help your brand begin its journey
-                  to success with <strong>custom sports apparel</strong> and many
-                  customization options.
+                 We are your go-to custom shorts manufacturers for high-quality, comfortable and durable shorts.
+                  We help your brand begin its journey to success with the <strong className="linkbank"><a href="/">custom sports apparel</a></strong> and many
+                    customization options. 
                 </p>
               </div>
             </Col>
@@ -114,11 +111,9 @@ const Customshortsmanufacturer = () => {
             {/* RIGHT CONTENT */}
             <Col md={6}>
               <p className="lead">
-                As a professional <strong>activewear manufacturer,</strong> we
-                specialize in crafting premium-quality shorts for sports, fitness, and
-                streetwear brands. Every product reflects comfort, performance, and
-                durability — from gym and athletic shorts to basketball and fitness
-                wear — made in bulk for your brand.
+          As a professional activewear manufacturer, we specialize in crafting a variety of premium-quality shorts for sports teams, streetwear brands, fitness labels and more. We incorporate advanced production methods and materials to enhance the products' features, including performance, flexibility, and durability. 
+          From gym shorts and fitness shorts to basketball
+           shorts and athletic shorts, we create shorts in bulk for your brand
               </p>
               <button className="Breathable">Get Started Now</button>
 
@@ -146,8 +141,8 @@ const Customshortsmanufacturer = () => {
             Mesh Shorts Manufacturers Offer Tech Advanced Shorts
           </h2>
           <p className="outdoor">
-            We combine technology with fabric for breathable, moisture-controlling, and
-            quick-drying mesh shorts — perfect for workouts, sports, and daily wear.
+          We combine technology with fabric to bring out the best properties of shorts. Every pair is tailored using breathable mesh materials to add and enhance ventilation, moisture control and quick drying 
+          that elevate the overall performance. Our mesh shorts are ideal for workout sessions, sports, and casual wear. 
           </p>
           <button className="Breathable">Build Your Own Brand</button>
         </Container>
@@ -179,8 +174,8 @@ const Customshortsmanufacturer = () => {
               Elevate Your Brand with Private Label Shorts
             </h2>
             <p className="trusted">
-              We help your brand stand out with private labeling options — custom tags,
-              labels, and printed logos that give your shorts a unique identity.
+              We aspire to make your brand recognized with private labeling 
+              options. Our custom labels give your products an identity that stands out in the competitive market. 
             </p>
 
             <ul className="list-unstyled mt-3">
@@ -209,8 +204,8 @@ const Customshortsmanufacturer = () => {
                 Cut and Sew Expertise and Unlimited Customization
               </h2>
               <p className="lead mb-4">
-                We manufacture finely detailed shorts using embroidery, dyeing,
-                sublimation, vinyl, and other advanced customization methods.
+            We believe in producing the best quality and aesthetically rich products using our customization options. Our customization techniques include embroidery, washing, dyeing, and several printing techniques. 
+            Our cut and sew shorts are made with precision by our professionals, making shorts exactly to your requirements.
               </p>
               <button className="Breathable">Start Your Brand with Us</button>
             </Col>
@@ -227,9 +222,10 @@ const Customshortsmanufacturer = () => {
               <div className="sweatsuit">
                 <h2 className="sweat-title">Modern Printing Methods for Stunning Shorts</h2>
                 <p className="sweat-desc">
-                  We use advanced printing techniques such as sublimation, heat press,
-                  vinyl, DTF, and DTG to make your shorts vibrant, durable, and
-                  distinctive.
+                 We use the modern and advanced printing methods to create outstanding shorts
+                  for your brand. Our printing methods include sublimation printing, heat printing, 
+                  vinyl printing, DTF (direct-to-film), DTG (direct-to-garment), and more. 
+
                 </p>
               </div>
             </Col>

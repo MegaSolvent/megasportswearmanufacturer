@@ -11,10 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 // Import images from public folder
 const images = [
-  "/Images/underwear/limitless-customization1.jpg",
-  "/Images/underwear/limitless-customization3.jpg",
-  "/Images/underwear/limitless-customization5.jpg",
-  "/Images/underwear/4.jpg"
+    "/Images/underwear/limitless-customization1.jpg",
+    "/Images/underwear/limitless-customization3.jpg",
+    "/Images/underwear/limitless-customization5.jpg",
+    "/Images/underwear/4.jpg"
 ];
 
 const bgBack = "/Images/Sweatsuit/bgback.jpg";
@@ -77,10 +77,9 @@ const Customunderwearmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-             <title> Underwear Manufacturer in the USA</title>
-            <meta name="description" content="     As a leading underwear manufacturer in the USA, we specialize in crafting 
-                                    premium-quality, soft, comfortable, and durable underwear for your clothing brand. We cater to fitness labels and businesses of all sizes, delivering the underwear that resonates with your brand's requirements.
-                                    Seamless sustainable underwear production." />
+            <title> Underwear Manufacturer in the USA</title>
+            <meta name="description" content=" As a leading underwear manufacturer in the USA, we specialize in crafting premium-quality, soft, comfortable, and durable underwear for your clothing brand. We cater to fitness labels and businesses of all sizes, delivering the underwear that resonates with your brand’s requirements.
+Seamless sustainable underwear production." />
             <link rel="canonical" href="/services/custom-underwear-manufacturer"></link>
             {/* Hero Section */}
             <section>
@@ -106,9 +105,9 @@ const Customunderwearmanufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    As a leading underwear manufacturer in the USA, we specialize in crafting 
-                                    premium-quality, soft, comfortable, and durable underwear for your clothing brand. We cater to fitness labels and businesses of all sizes, delivering the underwear that resonates with your brand's requirements.
-                                    Seamless sustainable underwear production.
+                                    As a leading underwear manufacturer in the USA, we specialize in crafting premium-quality, soft, comfortable, and durable underwear for your clothing brand. We cater to fitness labels and businesses of all sizes, delivering the underwear that resonates with your brand’s requirements.
+                                    Seamless sustainable underwear production
+
                                 </p>
                             </div>
                         </Col>
@@ -116,8 +115,8 @@ const Customunderwearmanufacturer = () => {
                         {/* RIGHT SIDE - CONTENT */}
                         <Col md={6}>
                             <p className="lead">
-                                As your trusted underwear and panty manufacturer, we combine excellent craftsmanship, comfort, and innovation to produce the finest undergarments for men and women.
-                                Every stitch ensures quality. The precise construction enhances the support and movement.
+                               As your trusted underwear and panty manufacturer, we combine excellent craftsmanship, comfort, and innovation to produce the finest undergarments for men and women.
+                                Every stitch ensures quality. The precise construction enhances the support and movement.  
                             </p>
                             <button className='Breathable'>Build Your Clothing Line</button>
 
@@ -145,7 +144,7 @@ const Customunderwearmanufacturer = () => {
                     <p className="outdoor">
                         Every underwear product is accurately constructed. Our professionals carefully select the
                         fabrics to add flexibility, breathability, softness, and durability.
-                        We work on additional features like custom colors and elastic branding to make 
+                        We work on additional features like custom colors and elastic branding to make
                         your product market-ready.
                     </p>
                     <button className='Breathable'>Inquire Now</button>
@@ -172,8 +171,8 @@ const Customunderwearmanufacturer = () => {
                     <Col md={6} className="mt-4 mt-md-0">
                         <h2 className="fw-bold mb-3">Limitless Customization Options for You</h2>
                         <p className='trusted'>
-                            As a reliable sports apparel manufacturer, we manufacture underwear
-                            using modern customization techniques that make your products unique and exclusive to your brand.
+                      As a reliable <strong className='linkbank'><a href="/">sports apparel manufacturer</a></strong>, we manufacture 
+                      underwear using modern customization techniques that make your products unique and exclusive to your brand.
                         </p>
 
                         <ul className="list-unstyled mt-3">
@@ -219,8 +218,8 @@ const Customunderwearmanufacturer = () => {
                         <Col lg={8} className="mx-auto">
                             <h2 className="display-6 fw-bold mb-3">Private Label Underwear Supplier for Your Brand's Identity</h2>
                             <p className="lead mb-4">
-                                If you are looking for a trusted OEM partner, we are your one-stop solution. Our private labeling options include custom labels, logo placements, and tags that inform the customer about your products.
-                                Our private labeling options help you become recognized in the market.
+                              If you are looking for a trusted OEM partner, we are your one-stop solution. Our private labeling options include custom labels, logo placements, and tags that inform
+                               the customer about your products. Our private labeling options help you become recognized in the market.
                             </p>
                             <button className='Breathable'>Begin Now</button>
                         </Col>
@@ -236,7 +235,7 @@ const Customunderwearmanufacturer = () => {
                             <div className='underwear'>
                                 <h2 className="sweat-title">Seamless & Sustainable Underwear Production</h2>
                                 <p className="sweat-desc">
-                                    We incorporate eco-friendly yarns, breathable materials, and recycled 
+                                    We incorporate eco-friendly yarns, breathable materials, and recycled
                                     materials to meet the global sustainability standards while maintaining quality, aesthetics, and comfort.
                                 </p>
                             </div>

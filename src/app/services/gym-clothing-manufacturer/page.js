@@ -120,10 +120,8 @@ const Gymclothingmanufacturer = () => {
                             <div className='uppersection'>
                                 <FaTshirt />
                                 <p className="textour">
-                                    Your product selection becomes easy with our gym apparel wholesale range that includes versatile
-                                    fitness wear for men and women. We specialize in designing gym wear with technical
-                                    precision and contemporary aesthetics, making them ideal for intense workouts 
-                                    and casual wear.
+                                  Your product selection becomes easy with our gym apparel wholesale range that includes versatile fitness wear for men and women. We specialize in designing gym wear with technical 
+                                  precision and contemporary aesthetics, making them ideal for intense workouts and casual wear.
                                 </p>
                             </div>
                         </Col>
@@ -193,7 +191,7 @@ const Gymclothingmanufacturer = () => {
                     <Col md={6} className="mt-4 mt-md-0">
                         <h3 className="fw-bold mb-3">Private Label Fitness Apparel Manufacturing</h3>
                         <p className='trusted'>
-                            We take pride in being reliable <strong>sports clothing manufacturers</strong>
+                            We take pride in being reliable <strong className='linkbank'><a href="/">sports clothing manufacturers</a></strong>
                             to offer the best private label fitness apparel to ensure your products reflect your brand’s identity.
                         </p>
 
