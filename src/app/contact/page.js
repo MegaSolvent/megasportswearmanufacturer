@@ -1,15 +1,72 @@
 'use client';
 
 import Image from 'next/image';
+import { useState } from 'react';
 
 function ContactPage() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  });
+  const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState('');
+
+  const handleChange = (e) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setStatus('');
+
+    try {
+      const res = await fetch('/api/signup', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const text = await res.text();
+      let data;
+      try {
+        data = JSON.parse(text || '{}');
+      } catch {
+        data = {};
+      }
+
+      if (!res.ok) {
+        throw new Error(data.message || `HTTP ${res.status}`);
+      }
+
+      if (data.success) {
+        setStatus(data.message || '✅ Signup submitted successfully!');
+        setFormData({ name: '', email: '', phone: '', message: '' });
+      } else {
+        setStatus(data.message || '❌ Something went wrong.');
+      }
+    } catch (err) {
+      console.error('FETCH ERROR:', err);
+      setStatus('❌ Network / server error: ' + err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+
+
   return (
     <div>
-          <title> Sportswear Manufacturing || Contact Us</title>
-      <meta name="description"  content="Have questions about custom sportswear, bulk production, or private-label manufacturing? 
+      <title> Sportswear Manufacturing || Contact Us</title>
+      <meta name="description" content="Have questions about custom sportswear, bulk production, or private-label manufacturing? 
                 Our team is here to help! We provide fast support for quotes, samples, pricing, fabric options, 
-                and full-cycle sportswear production!" />  
-  <link rel="canonical" href="/contact"></link>
+                and full-cycle sportswear production!" />
+      <link rel="canonical" href="/contact"></link>
 
 
       {/* Hero Section */}
@@ -19,8 +76,8 @@ function ContactPage() {
             <div className="col-md-8">
               <h1 className="display-4 fw-bold mb-3">Contact Us</h1>
               <p className="lead mb-0">
-                Have questions about custom sportswear, bulk production, or private-label manufacturing? 
-                Our team is here to help! We provide fast support for quotes, samples, pricing, fabric options, 
+                Have questions about custom sportswear, bulk production, or private-label manufacturing?
+                Our team is here to help! We provide fast support for quotes, samples, pricing, fabric options,
                 and full-cycle sportswear production!
               </p>
             </div>
@@ -30,60 +87,82 @@ function ContactPage() {
 
       {/* Contact Form Section */}
       <section className="py-5">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
-              <Image 
-                src="/Images/Homeimages/1st.jpg" 
-                alt="Contact Image" 
-                className="img-fluid rounded shadow-lg" 
-                width={600}
-                height={400}
-                style={{ height: '400px', objectFit: 'cover' }}
-                priority
-              />
-            </div>
 
-            <div className="col-lg-6 col-md-12">
-              <div className="card p-4 shadow-sm border-0 h-100">
-                <div className="card-body">
-                  <h3 className="mb-4">Get In Touch</h3>
-                  <form>
-                    <div className="row">
-                      <div className="col-md-6 mb-3">
-                        <label className="form-label">Name *</label>
-                        <input type="text" className="form-control" required />
-                      </div>
-                      <div className="col-md-6 mb-3">
-                        <label className="form-label">Phone</label>
-                        <input type="tel" className="form-control" />
-                      </div>
-                    </div>
+         <div className="container py-5">
+      <h1 className="mb-4 text-center">Signup / Contact</h1>
 
-                    <div className="mb-3">
-                      <label className="form-label">Email *</label>
-                      <input type="email" className="form-control" required />
-                    </div>
-
-                    <div className="mb-4">
-                      <label className="form-label">Message *</label>
-                      <textarea 
-                        rows={4} 
-                        className="form-control" 
-                        required 
-                        placeholder="Aapka message yahan likhein..."
-                      />
-                    </div>
-
-                    <button type="submit" className="btn btn-primary w-100 py-2 fw-bold">
-                      Send Message
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+      {status && (
+        <div
+          className={`alert ${
+            status.includes('✅') ? 'alert-success' : 'alert-danger'
+          }`}
+        >
+          {status}
         </div>
+      )}
+
+      <form onSubmit={handleSubmit} className="row g-3">
+        <div className="col-md-6">
+          <label className="form-label">Name *</label>
+          <input
+            type="text"
+            name="name"
+            className="form-control"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="col-md-6">
+          <label className="form-label">Email *</label>
+          <input
+            type="email"
+            name="email"
+            className="form-control"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="col-12">
+          <label className="form-label">Phone *</label>
+          <input
+            type="tel"
+            name="phone"
+            className="form-control"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="col-12">
+          <label className="form-label">Message *</label>
+          <textarea
+            name="message"
+            rows={4}
+            className="form-control"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="col-12">
+          <button
+            type="submit"
+            className="btn btn-primary w-100"
+            disabled={loading}
+          >
+            {loading ? 'Sending...' : 'Submit & Send Email'}
+          </button>
+        </div>
+      </form>
+    </div>
+
+
       </section>
 
       {/* Contact Info Cards */}
@@ -126,11 +205,11 @@ function ContactPage() {
         <div className="container-fluid">
           <h3 className="text-center mb-5">Our Location</h3>
           <div className="w-100 rounded shadow-lg overflow-hidden" style={{ height: '300px' }}>
-            <iframe 
+            <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.699614614614!2d-118.297968!3d34.061572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc7e6b4e8b1d%3A0x8e8e8e8e8e8e8e8e!2s3680%20Wilshire%20Blvd%2C%20Los%20Angeles%20CA%2090010!5e0!3m2!1sen!2sus!4v1634567890123!5m2!1sen!2sus"
-              width="100%" 
-              height="300" 
-              style={{ border: 0 }} 
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
               allowFullScreen={false}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
