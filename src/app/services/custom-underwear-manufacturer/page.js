@@ -77,9 +77,9 @@ const Customunderwearmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-            <title> Underwear Manufacturer in the USA</title>
-            <meta name="description" content=" As a leading underwear manufacturer in the USA, we specialize in crafting premium-quality, soft, comfortable, and durable underwear for your clothing brand. We cater to fitness labels and businesses of all sizes, delivering the underwear that resonates with your brand’s requirements.
-Seamless sustainable underwear production." />
+            <title>Build & Elevate Your Brand with Custom Underwear Manufacturer </title>
+            <meta name="description" content="As leading underwear manufacturers in the USA, 
+            we help you build and elevate your brand with premium products made from high-quality fabrics." />
             <link rel="canonical" href="/services/custom-underwear-manufacturer"></link>
             {/* Hero Section */}
             <section>

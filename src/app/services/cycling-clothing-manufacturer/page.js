@@ -77,10 +77,9 @@ const Cyclingclothingmanufacturers = () => {
 
   return (
     <div className="textile-services-page">
-      <title>Custom Cycling Clothing Manufacturer in The USA</title>
-      <meta name="description" content="  Partner with a reliable custom <strong>athletic clothing manufacturer,</strong> delivering high-quality, performance-driven
-                  cycling wear for clothing lines, retailers, fitness labels, and all small- and large-scale 
-                  sports apparel brands." />
+      <title>Cycling clothing manufacturers for a unique product line</title>
+      <meta name="description" content="Cycling jersey manufacturers craft outstanding
+       jerseys, t-shirts, shorts, and more products using premium customization and production methods." />
       <link rel="canonical" href="/services/cycling-clothing-manufacturer"></link>
       <section>
         <div className='yogaapparel'

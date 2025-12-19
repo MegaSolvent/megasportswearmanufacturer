@@ -77,9 +77,9 @@ const Customhoodiemanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-            <title>Custom Hoodie Manufacturer in the USA</title>
-            <meta name="description" content=" As your reliable custom hoodie manufacturer in the USA, we deliver the fully customized hoodies to meet your specific needs. From precise stitching to premium fabrics,
-             we bring your designs to life, making hoodies with unmatched craftsmanship. " />
+            <title>Start Your Apparel line with Top Custom Hoodie Manufacturer</title>
+            <meta name="description" content="From brand launch to complete customization,
+             the hoodie manufacturer in the USA offers a full range of production solutions with unique products and labeling.  " />
             <link rel="canonical" href="/services/custom-hoodie-manufacturer"></link>
             {/* Hero Section */}
             <section>

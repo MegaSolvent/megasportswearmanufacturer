@@ -67,9 +67,9 @@ const Customshortsmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
-       <title>  Custom Shorts Manufacturer</title>
-            <meta name="description" content=" We are your go-to custom shorts manufacturers for high-quality, comfortable and durable shorts. We help your brand 
-            begin its journey to success with the custom sports apparel and many  customization options. " />
+       <title>Build Your Shorts Brand with Top Custom Shorts Manufacturer</title>
+            <meta name="description" content=" Leading custom shorts manufacturer creates 
+            premium quality shorts using modern customization, private labeling, and advanced production methods.  " />
             <link rel="canonical" href="/services/custom-shorts-manufacturer"></link>
       {/* Banner */}
 

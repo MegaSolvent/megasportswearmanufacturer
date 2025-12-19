@@ -2,61 +2,67 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
+import './styles.css';
+
 
 function ContactPage() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    message: ""
   });
+
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState('');
+  const [success, setSuccess] = useState("");
+  const [error, setError] = useState("");
 
   const handleChange = (e) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setStatus('');
+    setSuccess("");
+    setError("");
+
+    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+      setError("All fields are required");
+      setLoading(false);
+      return;
+    }
 
     try {
-      const res = await fetch('/api/signup', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+      const res = await fetch("/app/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData)
       });
 
-      const text = await res.text();
-      let data;
-      try {
-        data = JSON.parse(text || '{}');
-      } catch {
-        data = {};
-      }
-
-      if (!res.ok) {
-        throw new Error(data.message || `HTTP ${res.status}`);
-      }
+      const data = await res.json();
 
       if (data.success) {
-        setStatus(data.message || '✅ Signup submitted successfully!');
-        setFormData({ name: '', email: '', phone: '', message: '' });
+        setSuccess(data.message);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: ""
+        });
       } else {
-        setStatus(data.message || '❌ Something went wrong.');
+        setError(data.message);
       }
-    } catch (err) {
-      console.error('FETCH ERROR:', err);
-      setStatus('❌ Network / server error: ' + err.message);
-    } finally {
-      setLoading(false);
+    } catch {
+      setError("Failed to send message. Try again later.");
     }
+
+    setLoading(false);
   };
+
 
 
 
@@ -88,80 +94,50 @@ function ContactPage() {
       {/* Contact Form Section */}
       <section className="py-5">
 
-         <div className="container py-5">
-      <h1 className="mb-4 text-center">Signup / Contact</h1>
+   <div className="contact-container">
+        <h2>Contact Us</h2>
 
-      {status && (
-        <div
-          className={`alert ${
-            status.includes('✅') ? 'alert-success' : 'alert-danger'
-          }`}
-        >
-          {status}
-        </div>
-      )}
+        {success && <p className="success">{success}</p>}
+        {error && <p className="error">{error}</p>}
 
-      <form onSubmit={handleSubmit} className="row g-3">
-        <div className="col-md-6">
-          <label className="form-label">Name *</label>
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
             name="name"
-            className="form-control"
+            placeholder="Your Name"
             value={formData.name}
             onChange={handleChange}
-            required
           />
-        </div>
 
-        <div className="col-md-6">
-          <label className="form-label">Email *</label>
           <input
             type="email"
             name="email"
-            className="form-control"
+            placeholder="Your Email"
             value={formData.email}
             onChange={handleChange}
-            required
           />
-        </div>
 
-        <div className="col-12">
-          <label className="form-label">Phone *</label>
           <input
-            type="tel"
+            type="text"
             name="phone"
-            className="form-control"
+            placeholder="Your Phone"
             value={formData.phone}
             onChange={handleChange}
-            required
           />
-        </div>
 
-        <div className="col-12">
-          <label className="form-label">Message *</label>
           <textarea
             name="message"
-            rows={4}
-            className="form-control"
+            placeholder="Your Message"
             value={formData.message}
             onChange={handleChange}
-            required
-          />
-        </div>
+          ></textarea>
 
-        <div className="col-12">
-          <button
-            type="submit"
-            className="btn btn-primary w-100"
-            disabled={loading}
-          >
-            {loading ? 'Sending...' : 'Submit & Send Email'}
+          <button type="submit" disabled={loading}>
+            {loading ? "Sending..." : "Send Message"}
           </button>
-        </div>
-      </form>
-    </div>
-
+        </form>
+      </div>
+  
 
       </section>
 

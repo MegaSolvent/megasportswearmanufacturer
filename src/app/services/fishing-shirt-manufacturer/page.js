@@ -77,9 +77,9 @@ const Fishingshirtmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-            <title>Fishing Apparel Manufacturers</title>
-            <meta name="description" content=" We are a trusted sports apparel manufacturer that creates performance-driven custom fishing shirts tailored specifically for swimwear brands, professional anglers, 
-            retailers, and small- and large-scale private label clothing lines." />
+            <title>Fishing Shirt Manufacturers: Custom Fishing Shirts</title>
+            <meta name="description" content="Top  fishing clothing manufacturers help you start your 
+            clothing line and offer customization options, fast turnaround time, low MOQ, and competitive prices." />
             <link rel="canonical" href="/services/fishing-shirt-manufacturer"></link>
             {/* Hero Section */}
             <section>

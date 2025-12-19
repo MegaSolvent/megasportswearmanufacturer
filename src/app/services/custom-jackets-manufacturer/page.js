@@ -69,11 +69,9 @@ const Customjacketsmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
-      <title> Custom Jackets Manufacture</title>
-      <meta name="description" content="We are your go-to custom jacket supplier for the market-ready custom jackets
-       and coats. We create jackets and coats according to purposes and your specific requirements. We manufacture
-        high-quality outerwear for private labels, brands, wholesalers, and fashion labels. Our coats and jackets are also ideal
-       for workwear and streetwear since they feature durability, aesthetics, comfort, and performance. " />
+      <title>Leading Custom jacket & Coat manufacturer</title>
+      <meta name="description" content="Manufacturer of jackets for men, women, & kids offers premium
+       quality products with unlimited customization options, private labeling, and customer services.  " />
       <link rel="canonical" href="/services/custom-jackets-manufacturer"></link>
       {/* Banner Section */}
       <section>

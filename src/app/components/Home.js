@@ -134,15 +134,14 @@ function Home() {
   ];
 
   return (
-    
+
     <>
-  
+
       <Container fluid>
-            <title>SPORTWEAR MANUFACTURING</title>
-      <meta name="description"  content="Our professional sportswear manufacturing solutions blend technology, comfort, and style to deliver high-quality custom apparel, empowering sports clothing brands, teams, and athletes across the world.
-                                                Our products are created for performance, endurance and movement. From sports apparel and team uniforms to fitness clothing, Sportswear Manufacturing offers solutions to help brands dominate in
-                                                 the market." />  
-  <link rel="canonical" href="/"></link>
+        <title> Sportswear Manufacturer | Premium Sports Clothing Production</title>
+        <meta name="description" content="Sports clothing manufacturers deliver premium sportswear
+         manufacturing solutions, activewear, teamwear, and fitness products to global brands." />
+        <link rel="canonical" href="/"></link>
         <Row>
           <Col md={6} lg={6} xl={6}>
             <div className='herosection'>
@@ -159,7 +158,7 @@ function Home() {
                     />
                   </Col>
                   <Col>
-                   <p className="description">
+                    <p className="description">
                       Our professional sportswear manufacturing solutions blend technology, comfort, and style to deliver
                       high-quality custom apparel, empowering sports clothing brands, teams, and athletes across the world.
                     </p>

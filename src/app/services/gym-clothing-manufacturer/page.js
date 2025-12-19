@@ -85,11 +85,9 @@ const Gymclothingmanufacturer = () => {
     return (
         <div className="textile-services-page">
 
-             <title>Gym Clothing Manufacturer</title>
-            <meta name="description" content=" Your product selection becomes easy with our gym apparel wholesale range that includes versatile
-                                    fitness wear for men and women. We specialize in designing gym wear with technical
-                                    precision and contemporary aesthetics, making them ideal for intense workouts 
-                                    and casual wear." />
+             <title>Top Gym clothing manufacturers | Best Gym Clothes for brands</title>
+            <meta name="description" content="Leading fitness clothing manufacturer offers custom gym wear,
+             private labeling solutions, fast turnaround time, and bulk quantity premium workout clothes." />
             <link rel="canonical" href="/services/gym-clothing-manufacturer"></link>
             {/* Hero section */}
             

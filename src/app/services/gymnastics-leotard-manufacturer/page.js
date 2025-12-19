@@ -79,9 +79,9 @@ const Gymnasticsleotardmanufacturers = () => {
   return (
     <div className="textile-services-page">
 
-         <title>   Gymnastics Leotard Manufacturer</title>
-            <meta name="description" content="We are the gymnastics leotard manufacturer offering a perfect blend of elegance and comfort with our custom gymnastics sportswear. As sportswear manufacturing experts, we deliver aesthetically rich gymnastics apparel made from stretchable and breathable materials. We create a personalized look of leotards
-             for brands, retailers, athletes, sports teams, and small- and large-scale clothing lines." />
+         <title>Gymnastics leotard manufacturers—Complete Customization </title>
+            <meta name="description" content=" Elevate your clothing line with the best custom gymnastics uniforms,
+             premium clothes, limitless customization, performance fabrics, and private labeling." />
             <link rel="canonical" href="/services/gymnastics-leotard-manufacturer"></link>
       {/* Hero Banner */}
      <section>

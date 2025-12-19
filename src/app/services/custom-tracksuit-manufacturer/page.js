@@ -77,9 +77,9 @@ const Customtracksuitmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-            <title>  Custom Tracksuit Manufacturers</title>
-            <meta name="description" content=" As one of the leading sportswear manufacturers, our expertise is in designing and producing performance-driven, comfortable, and eye-catching tracksuits for fitness brands, sports teams, athletes, and private labels. We deliver premium quality,
-             whether you want gym-ready tracksuits or lifestyle clothing for your clothing line. " />
+            <title>Tracksuit manufacturers | Ready to Make Your Brand Stand Out </title>
+            <meta name="description" content=" Custom tracksuits manufacturer offering a wide range of customization services, 
+            printing options, private labeling, a low MOQ, and affordable prices. " />
             <link rel="canonical" href="/services/custom-tracksuit-manufacturer"></link>
             {/* Hero Section */}
             <section>

@@ -71,9 +71,9 @@ const Yogawearmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
-      <title> Custom Yoga Wear Manufacturer</title>
-      <meta name="description" content=" Our expertise in crafting premium-quality yoga clothing makes us a reliable custom yoga wear manufacturer. We combine flexibility, style and comfort with performance fabrics to create products that elevate performance during yoga activities. We cater to sports brands, 
-            fitness labels, retailers, and clothing lines by providing them with top-of-the-line yoga wear. " />
+      <title>Build your brand with custom yoga wear manufacturer</title>
+      <meta name="description" content="Custom yoga clothing manufacturers offer limitless
+       customization options, private labeling, low MOQ, printing methods, cut-and-sew, and affordable prices. " />
       <link rel="canonical" href="/services/yoga-wear-manufacturer"></link>
       {/* Banner */}
 

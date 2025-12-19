@@ -78,9 +78,9 @@ const HuntingclothingManufacturer = () => {
 
   return (
     <div className="textile-services-page">
-           <title>Hunting Apparel Manufacturer</title>
-            <meta name="description" content="As your reliable camouflage clothing manufacturer, we specialize in crafting premium hunting apparel for amazing outdoor performance. Our products are designed for unpredictable weather and rugged terrains. We cater to hunting brands, sports clothing
-             lines, retailers, and big and small apparel businesses with the best hunting gear. " />
+           <title>Become a brand with A Leading Hunting clothing manufacturer</title>
+            <meta name="description" content="Custom hunting clothing manufacturers can help you start your own
+             clothing line with the finest, durable, and iconic products at affordable prices.  " />
             <link rel="canonical" href="/services/hunting-clothing-manufacturer"></link>
       {/* Banner */}
 

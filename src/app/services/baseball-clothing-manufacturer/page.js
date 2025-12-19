@@ -77,9 +77,9 @@ const Baseballclothingmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-              <title>Baseball Jersey Manufacturers</title>
-      <meta name="description"  content="Start your top-tier baseball apparel brand with the leading sports apparel manufacturers in the USA. We are the professional suppliers
-       of custom baseball uniform team apparel engineered for performance, comfort, and durability. " />  
+              <title>Top Baseball jersey manufacturers in the USA for your brand</title>
+      <meta name="description"  content="Baseball clothing manufacturers offer the best customization
+       options, limitless bulk production, and private labeling services to help you launch your brand. " />  
   <link rel="canonical" href="/services/baseball-clothing-manufacturer"></link>
             {/* Hero Section */}
             <section>

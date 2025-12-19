@@ -77,10 +77,9 @@ const Tennisclothingmanufacturer = () => {
 
   return (
     <div className="textile-services-page">
-         <title>Custom Tennis Clothing Manufacturer</title>
-            <meta name="description" content=" We help tennis clothing brands, teams,
-                  and private labels start their clothing lines and build up a clothing
-                  line that dominates the competitive market." />
+         <title>Tennis Clothing Manufacturers for Your Brand’s Success</title>
+            <meta name="description" content=" Top tennis clothes manufacturers helps you build your clothing
+             line with unique products delivered with private labeling and limitless customization options." />
             <link rel="canonical" href="/services/tennis-clothing-manufacturer"></link>
       {/* Hero Section */}
       <section>

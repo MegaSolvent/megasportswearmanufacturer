@@ -77,9 +77,9 @@ const Custompajamamanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-            <title>Custom Pajama Manufacturers</title>
-            <meta name="description" content="We are your trusted custom pajama manufacturers, offering a perfect blend of comfort and style. We manufacture a vast variety of pajamas using eco-friendly and sustainable materials for fashion labels,
-             boutiques, e-commerce stores, clothing lines and brands that need custom loungewear. " />
+            <title>Pajama manufacturers offer fully customized pajamas in bulk. </title>
+            <meta name="description" content=" Leading custom pajama manufacturer in the USA offers
+             fully customized pajamas, private labeling options, low MOQ, and bulk quantity at affordable prices. " />
             <link rel="canonical" href="/services/custom-pajama-manufacturer"></link>
             {/* Hero Section */}
             <section>

@@ -83,9 +83,9 @@ const SweatsuitManufacturer = () => {
 
     return (
         <div className="textile-services-page">
-                <title> Custom Sweatsuits Manufacturer</title>
-            <meta name="description" content="Our specialty in crafting the best sweatsuits makes us a reliable sweatsuit and tracksuit manufacturer. We cater to private labels, sports clubs, and brands that want premium-
-             sweatsuits. We have got you covered whether you need performance products or loungewear in the best designs. " />
+                <title>Sweatsuit manufacturers | High-Quality Custom Sweatsuits </title>
+            <meta name="description" content="Sweatsuit suppliers offer bulk sweatsuit 
+            manufacturing with limitless customization options, low MOQ, premium fabrics, and affordable prices. " />
             <link rel="canonical" href="/services/sweat-suit-manufacturer"></link>
             {/* Hero banner */}
            

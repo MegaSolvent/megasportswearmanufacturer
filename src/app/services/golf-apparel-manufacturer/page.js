@@ -78,10 +78,9 @@ const Golfapparelmanufacturer = () => {
 
     return (
         <div className="textile-services-page">
-   <title>  Golf Apparel Manufacturer</title>
-            <meta name="description" content="  We offer end-to-end solutions ranging from fabric sourcing and stitching to complete bulk golf wear manufacturing.
-                                    Our excellent production ensures that every product reflects your brand's 
-                                    style and performance values." />
+   <title>Golf apparel manufacturers | Premium Golf Shirts & Essentials</title>
+            <meta name="description" content="Leading golf shirt manufacturers offers premium quality golf 
+            shirts and other products along with Low MOQ, customization options, and bulk production services." />
             <link rel="canonical" href="/services/golf-apparel-manufacturer"></link>
             <section>
                 <div className='yogaapparel'
