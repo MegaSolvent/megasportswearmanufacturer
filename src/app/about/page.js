@@ -22,14 +22,11 @@ const AboutPage = () => {
         <div className="about-page bg-white">
 
 
-            <title> Sportswear Manufacturing || About Us</title>
-            <meta name="description" content=" We are the Sports Apparel Manufacturers, top sports clothing suppliers in the USA.
-                                        We cater to clothing brands, retailers, startups, established clothing lines,
-                                        athletic teams, wholesalers, and small- and large-scale apparel businesses.
-                                        With the help of our top-of-the-line customer services, we help our customers develop
-                                        their product lines and launch their brands.
-                                        We help them evolve in the competitive clothing industry." />
-            <link rel="canonical" href="/contact"></link>
+            <title> About Sports Apparel Manufacturers | Custom Sports Clothing </title>
+            <meta name="description" content="Sports Apparel Manufacturers offer
+             custom production, premium fabrics, low MOQ, fast turnaround time, doorstep delivery,
+              and customer-oriented services." />
+            <link rel="canonical" href="/about"></link>
 
 
             <section
@@ -63,7 +60,7 @@ const AboutPage = () => {
                             <div className="col-md-6">
                                 <div className="mianabout">
                                     <p className="sportaparel">
-                                        We are the Sports Apparel Manufacturers, top sports clothing suppliers in the USA.
+                                        We are the <strong className='linkbank'> <a href="/">Sports Apparel Manufacturers,</a></strong> top sports clothing suppliers in the USA.
                                         We cater to clothing brands, retailers, startups, established clothing lines,
                                         athletic teams, wholesalers, and small- and large-scale apparel businesses.
                                         With the help of our top-of-the-line customer services, we help our customers develop
@@ -71,7 +68,7 @@ const AboutPage = () => {
                                         We help them evolve in the competitive clothing industry.
                                     </p>
                                     <p className="mnufacturer">
-                                        For many years, <strong className='linkbank'> <a href="/">Sports Apparel Manufacturers</a></strong> has been working closely with brands of all scales. We have a strong reputation, given the fact that most of our clients are well-set and running their businesses smoothly globally.
+                                        For many years, Sports Apparel Manufacturers has been working closely with brands of all scales. We have a strong reputation, given the fact that most of our clients are well-set and running their businesses smoothly globally.
                                         Our advanced production facility is located in Pakistan. We are registered in the USA.
                                     </p>
                                     <button className="btn btn-white">Talk to Us</button>

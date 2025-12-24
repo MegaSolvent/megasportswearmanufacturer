@@ -25,14 +25,11 @@ function Portfolio() {
         <Carousel.Item>
 
 
-              <title>  Efficient and High-Quality Sportswear Manufacturing</title>
-      <meta name="description"  content="    We are the leading sports apparel manufacturers, the one-stop solution for 
-             clothing brands seeking premium-quality sports clothing. We have been working 
-             closely with startups and established clothing lines for many years, helping them
-              launch their brands and become recognized in the apparel industry. We have helped 
-              numerous apparel brands and businesses
-              form their unique identities by creating strong and attractive product lines for them." />  
-  <link rel="canonical" href="/portfolio"></link>
+          <title>High-Quality Sportswear Manufacturing | Premium Apparel Solutions</title>
+          <meta name="description" content=" View our portfolio showcasing premium sportswear
+       production solutions for startups and established brands with fast production, low MOQ, 
+       and doorstep delivery. " />
+          <link rel="canonical" href="/portfolio"></link>
 
 
           <div className="hero-slide">
@@ -41,12 +38,12 @@ function Portfolio() {
                 Efficient and High-Quality Sportswear Manufacturing
               </h1>
               <p className="mt-3 leading-sports">
-             We are the leading <strong className="linkbank"><a href="/">sports apparel manufacturers</a></strong>, the one-stop solution for 
-             clothing brands seeking premium-quality sports clothing. We have been working 
-             closely with startups and established clothing lines for many years, helping them
-              launch their brands and become recognized in the apparel industry. We have helped 
-              numerous apparel brands and businesses
-              form their unique identities by creating strong and attractive product lines for them.
+                We are the leading <strong className="linkbank"><a href="/">sports apparel manufacturers</a></strong>, the one-stop solution for
+                clothing brands seeking premium-quality sports clothing. We have been working
+                closely with startups and established clothing lines for many years, helping them
+                launch their brands and become recognized in the apparel industry. We have helped
+                numerous apparel brands and businesses
+                form their unique identities by creating strong and attractive product lines for them.
               </p>
             </div>
           </div>
@@ -123,8 +120,8 @@ function Portfolio() {
         <p className="mt-3 mx-auto" style={{ maxWidth: "1140px" }}>
           We have built a strong reputation over the past years due to our exceptional customer service and outstanding products.
           Our craftsmanship is the reason why many brands stand firm in the clothing industry. We are the masters of creation,
-          whether it's swimming apparel, <strong className="linkbank"><a href="/services/golf-apparel-manufacturer">golf clothing</a></strong>, <strong className="linkbank"><a href="/services/gym-clothing-manufacturer">gymwear</a></strong>, basketball uniforms, or any sports apparel category. We are 
-          capable of meeting your requirements even if they are complex because we like taking challenges. Our aim is to deliver 
+          whether it's swimming apparel, <strong className="linkbank"><a href="/services/golf-apparel-manufacturer">golf clothing</a></strong>, <strong className="linkbank"><a href="/services/gym-clothing-manufacturer">gymwear</a></strong>, basketball uniforms, or any sports apparel category. We are
+          capable of meeting your requirements even if they are complex because we like taking challenges. Our aim is to deliver
           the best products, competitive pricing, premium quality, low MOQs, sample production, unlimited bulk production, free shipment, and doorstep delivery.
         </p>
 

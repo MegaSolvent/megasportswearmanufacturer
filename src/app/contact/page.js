@@ -1,66 +1,106 @@
 'use client';
 
-import Image from 'next/image';
 import { useState } from 'react';
+import toast from 'react-hot-toast';
 import './styles.css';
 
 
 function ContactPage() {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: ""
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
   });
 
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState({
+    type: '',
+    message: '',
+  });
   const [loading, setLoading] = useState(false);
-  const [success, setSuccess] = useState("");
-  const [error, setError] = useState("");
 
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+    setFormData(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+    setErrors(prev => ({ ...prev, [e.target.name]: '' }));
+    setStatus({ type: '', message: '' });
+  };
+
+  const validate = () => {
+    const newErrors = {};
+
+    if (!formData.name.trim()) {
+      newErrors.name = 'Name is required';
+    }
+
+    if (!formData.email.trim()) {
+      newErrors.email = 'Email is required';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      newErrors.email = 'Enter a valid email';
+    }
+
+    if (formData.phone) {
+      const phoneRegex = /^(\+?\d[\d\s-]{8,15})$/;
+      if (!phoneRegex.test(formData.phone.trim())) {
+        newErrors.phone = 'Enter a valid phone number';
+      }
+    }
+
+    if (!formData.message.trim()) {
+      newErrors.message = 'Message is required';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
-    setSuccess("");
-    setError("");
 
-    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
-      setError("All fields are required");
-      setLoading(false);
-      return;
-    }
+    if (!validate()) return;
+
+    setLoading(true);
+    setStatus({ type: '', message: '' });
 
     try {
-      const res = await fetch("/app/api/send-email", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData)
+      const res = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
 
       const data = await res.json();
 
-      if (data.success) {
-        setSuccess(data.message);
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          message: ""
+      if (!res.ok || !data.success) {
+        setStatus({
+          type: 'error',
+          message: data.error || 'Failed to send email. Please try again.',
         });
       } else {
-        setError(data.message);
+        setStatus({
+          type: 'success',
+          message: data.message || 'Your message has been sent successfully!',
+        });
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+        });
       }
-    } catch {
-      setError("Failed to send message. Try again later.");
+    } catch (err) {
+      setStatus({
+        type: 'error',
+        message: 'Network error. Please check your connection.',
+      });
+    } finally {
+      setLoading(false);
     }
-
-    setLoading(false);
   };
 
 
@@ -68,10 +108,9 @@ function ContactPage() {
 
   return (
     <div>
-      <title> Sportswear Manufacturing || Contact Us</title>
-      <meta name="description" content="Have questions about custom sportswear, bulk production, or private-label manufacturing? 
-                Our team is here to help! We provide fast support for quotes, samples, pricing, fabric options, 
-                and full-cycle sportswear production!" />
+      <title>Contact Us | Sports Apparel Manufacturers.</title>
+      <meta name="description" content="Get in touch with the leading sports apparel manufacturers
+       in the USA. Get low MOQ, premium fabrics, customization, fast production, and doorstep delivery." />
       <link rel="canonical" href="/contact"></link>
 
 
@@ -93,52 +132,135 @@ function ContactPage() {
 
       {/* Contact Form Section */}
       <section className="py-5">
+        <div className="container py-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-xl-6">
+              <div className="card shadow border-0">
+                <div className="card-body p-4 p-md-5">
+                  <h2 className="mb-4 text-center text-primary fw-bold">
+                    Contact Us
+                  </h2>
+                  <p className="text-muted text-center mb-4">
+                    Fill the form and your message will be sent via SMTP (Nodemailer).
+                  </p>
 
-   <div className="contact-container">
-        <h2>Contact Us</h2>
+                  {status.message && (
+                    <div
+                      className={`alert ${status.type === 'success'
+                          ? 'alert-success'
+                          : 'alert-danger'
+                        }`}
+                      role="alert"
+                    >
+                      {status.message}
+                    </div>
+                  )}
 
-        {success && <p className="success">{success}</p>}
-        {error && <p className="error">{error}</p>}
+                  <form onSubmit={handleSubmit} noValidate>
+                    {/* Name */}
+                    <div className="mb-3">
+                      <label className="form-label fw-semibold" htmlFor="name">
+                        Name <span className="text-danger">*</span>
+                      </label>
+                      <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        className={`form-control ${errors.name ? 'is-invalid' : ''
+                          }`}
+                        placeholder="Enter your full name"
+                        value={formData.name}
+                        onChange={handleChange}
+                      />
+                      {errors.name && (
+                        <div className="invalid-feedback">{errors.name}</div>
+                      )}
+                    </div>
 
-        <form onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
-            onChange={handleChange}
-          />
+                    {/* Email */}
+                    <div className="mb-3">
+                      <label className="form-label fw-semibold" htmlFor="email">
+                        Email <span className="text-danger">*</span>
+                      </label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        className={`form-control ${errors.email ? 'is-invalid' : ''
+                          }`}
+                        placeholder="you@example.com"
+                        value={formData.email}
+                        onChange={handleChange}
+                      />
+                      {errors.email && (
+                        <div className="invalid-feedback">{errors.email}</div>
+                      )}
+                    </div>
 
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
-            onChange={handleChange}
-          />
+                    {/* Phone */}
+                    <div className="mb-3">
+                      <label className="form-label fw-semibold" htmlFor="phone">
+                        Phone (optional)
+                      </label>
+                      <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        className={`form-control ${errors.phone ? 'is-invalid' : ''
+                          }`}
+                        placeholder="+92 3xx xxxxxxx"
+                        value={formData.phone}
+                        onChange={handleChange}
+                      />
+                      {errors.phone && (
+                        <div className="invalid-feedback">{errors.phone}</div>
+                      )}
+                    </div>
 
-          <input
-            type="text"
-            name="phone"
-            placeholder="Your Phone"
-            value={formData.phone}
-            onChange={handleChange}
-          />
+                    {/* Message */}
+                    <div className="mb-4">
+                      <label className="form-label fw-semibold" htmlFor="message">
+                        Message <span className="text-danger">*</span>
+                      </label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        rows={5}
+                        className={`form-control ${errors.message ? 'is-invalid' : ''
+                          }`}
+                        placeholder="Write your message here..."
+                        value={formData.message}
+                        onChange={handleChange}
+                      />
+                      {errors.message && (
+                        <div className="invalid-feedback">{errors.message}</div>
+                      )}
+                    </div>
 
-          <textarea
-            name="message"
-            placeholder="Your Message"
-            value={formData.message}
-            onChange={handleChange}
-          ></textarea>
+                    <button
+                      type="submit"
+                      className="btn btn-primary w-100 py-2 fw-semibold"
+                      disabled={loading}
+                    >
+                      {loading ? (
+                        <>
+                          <span className="spinner-border spinner-border-sm me-2" />
+                          Sending...
+                        </>
+                      ) : (
+                        'Send Message'
+                      )}
+                    </button>
+                  </form>
 
-          <button type="submit" disabled={loading}>
-            {loading ? "Sending..." : "Send Message"}
-          </button>
-        </form>
-      </div>
-  
-
+                  <p className="text-muted small mt-3 mb-0 text-center">
+                    Your data is sent securely to the server via SMTP using Nodemailer.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Contact Info Cards */}
