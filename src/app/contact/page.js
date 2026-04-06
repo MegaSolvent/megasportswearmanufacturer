@@ -141,7 +141,8 @@ function ContactPage() {
                     Contact Us
                   </h2>
                   <p className="text-muted text-center mb-4">
-                    Fill the form and your message will be sent via SMTP (Nodemailer).
+                    If you have any questions, feel free to contact
+                     Mega Sports Apparel by filling out the form or emailing at the address provided below.
                   </p>
 
                   {status.message && (
@@ -254,7 +255,9 @@ function ContactPage() {
                   </form>
 
                   <p className="text-muted small mt-3 mb-0 text-center">
-                    Your data is sent securely to the server via SMTP using Nodemailer.
+                   If you have any questions, 
+                   feel free to contact Mega Sports Apparel by filling out the form 
+                   or emailing at the address provided below.
                   </p>
                 </div>
               </div>

@@ -65,7 +65,7 @@ export async function POST(request) {
     }
 
     // Phone validation (optional)
-    const phoneRegex = /^(\+92|0)?[3-9][0-9]{9}$/;
+    const phoneRegex = /^(\+00|0)?[3-9][0-9]{9}$/;
     if (phone && !phoneRegex.test(phone.replace(/\s+/g, ''))) {
       return NextResponse.json(
         { success: false, error: 'Invalid phone number' },
